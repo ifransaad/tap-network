@@ -19,4 +19,13 @@ if(!empty($_POST["email"])) {
       }
   }
 }
-  // End code check email
+
+?>
+
+<style>
+
+
+
+
+</style>
+  <!-- // End code check email -->

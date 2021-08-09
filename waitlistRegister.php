@@ -16,7 +16,6 @@ $refer = htmlspecialchars($_GET['refer'] ?? '');
     <title>Join Our Waitlist</title>
     <link rel="shortcut icon" type="image/jpg" href="icons/favicon.svg" />
     <link rel="stylesheet" href="css/waitlistRegister.css">
-    <!-- <link rel="stylesheet" href="css/intlTelInput.css"> -->
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 
 
@@ -65,49 +64,6 @@ $refer = htmlspecialchars($_GET['refer'] ?? '');
                     </div>
 
                     <div class="signUpPt1">
-                        <!-- <form action="includes/waitlist.inc.php" id="form" class="form" method="post">
-                            <div class="formControl" style="font-weight: 600;">
-                                <label for="fullName" style="font-weight: 500;">Your Full Name*</label><br>
-                                <input id="fullName" type="text" placeholder="Full Name" name="name">
-                                <i class="fas fa-exclamation-circle"></i>
-                                <i class="fas fa-check-circle"></i>
-                                <small>Error Message</small>
-                            </div>
-
-                            <div class=" formControl ">
-                                <label for="email" style="font-weight: 500;">Email Address*</label><br>
-                                <input id="email" type="text" placeholder="Enter Email Address" name="email" onBlur="checkemailAvailability()">
-                                <span id="email-availability-status"></span>
-                                <i class="fas fa-exclamation-circle"></i>
-                                <i class="fas fa-check-circle"></i>
-                                <small>Error Message</small>
-                            </div>
-
-                            <div class="formControl">
-                                <label for="pwd">Password*</label><br>
-                                <input id="password" type="password" placeholder="Password" name="pwd">
-                                <i class="fas fa-exclamation-circle"></i>
-                                <i class="fas fa-check-circle"></i>
-                                <small>Error Message</small>
-
-                            </div>
-
-                            <div class=" formControl">
-                                <label for="pwdrepeat">Confirm Password*</label><br>
-                                <input id="password2" type="password" placeholder="Retype Password" name="pwdrepeat">
-                                <i class="fas fa-exclamation-circle"></i>
-                                <i class="fas fa-check-circle"></i>
-                                <small>Error Message</small>
-
-                            </div>
-
-                            <div class="formControl ">
-                                <label for="refer" style="font-weight: 500;">Referer</label><br>
-                                <input id="refer" type="text" placeholder="Referer Name" name="refer" value="<?php echo $refer; ?>">
-                            </div>
-                            <input class="register" type="submit" name="submit" value="Join our waitlist" />
-
-                        </form> -->
                         <form action="includes/waitlist.inc.php" id="registration" class="registration" method="post">
                             <label for="username">
                                 <span>Full Name*</span>
@@ -158,7 +114,7 @@ $refer = htmlspecialchars($_GET['refer'] ?? '');
                             <input class="register" type="submit" name="submit" value="Join our waitlist" />
 
                         </form>
-                        <div style="transform: translateY(10px); margin-bottom: 20px;">Already a member? <a href="https://tapnetwork.app/waitlistLogin.php" style="text-decoration: none; color: #1076FD;">Login</a></div>
+                        <div style="transform: translateY(10px); margin-bottom: 20px;">Already a member? <a href="waitlistLogin.php" style="text-decoration: none; color: #1076FD;">Login</a></div>
                             <?php
                                 if(isset($_GET["error"])){
                                     if($_GET["error"] == "invalidemail"){

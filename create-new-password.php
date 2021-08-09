@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,64 +8,75 @@
     <title>TapNetwork- Future of Networking</title>
     <link rel="shortcut icon" type="image/jpg" href="icons/favicon.svg" />
     <link rel="stylesheet" href="css/waitlistRegister.css">
-    <link rel="stylesheet" href="css/intlTelInput.css">
+    <link rel="stylesheet" href="css/thankYou.css">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/03a159b6a0.js" crossorigin="anonymous"></script>
     <style>
-        .content{
+        .content {
             flex-direction: column;
             justify-content: center;
             align-items: center;
         }
-        .content h1{
+
+        .content h1 {
             margin: 10px;
-            text-align:left;
+            text-align: left;
 
         }
-        .content p{
+
+        .content p {
             margin: 0px;
-            margin-bottom:10px;
-            text-align:center;
+            margin-bottom: 10px;
+            text-align: center;
         }
-        
     </style>
 
 </head>
 
 <body>
     <main>
-    <div class="waitListRegisterContainer">
-        <div class="content">
+        <!-- Navbar -->
+        <div class="navbar ">
+            <div class="navbarContent">
+                <div class="">
+                    <a href="index.php"><img class="logo" src="icons/Logolatest.svg"></a>
+                </div>
+            </div>
+        </div>
 
-            <?php 
+        <!-- Navbar End -->
+        <div class="waitListRegisterContainer">
+            <div class="content">
+
+                <?php
                 $selector = $_GET["selector"];
                 $validator = $_GET["validator"];
 
-                if(empty($selector) || empty($validator)){
+                if (empty($selector) || empty($validator)) {
                     echo "Could not validate your request!";
                 } else {
-                    if(ctype_xdigit($selector) !== false && ctype_xdigit($validator) !== false){
-                        ?>
+                    if (ctype_xdigit($selector) !== false && ctype_xdigit($validator) !== false) {
+                ?>
 
                         <form action="includes/reset-password.inc.php" method="post">
-                        <input type = "hidden" name="selector" value="<?php echo $selector; ?>">
-                        <input type = "hidden" name="validator" value="<?php echo $validator; ?>">  
-                        <h1>Enter new Password</h1>
-                        
-                        <input type="password" name="pwd" placeholder="Enter a new password">
-                        <input type="password" name="pwd-repeat" placeholder="Repeat new password">
-                        <button class="register" type="submit" name="reset-password-submit">Reset Password</button>
+                            <input type="hidden" name="selector" value="<?php echo $selector; ?>">
+                            <input type="hidden" name="validator" value="<?php echo $validator; ?>">
+                            <h1>Enter new Password</h1>
+
+                            <input type="password" name="pwd" placeholder="Enter a new password">
+                            <input type="password" name="pwd-repeat" placeholder="Repeat new password">
+                            <button class="register" type="submit" name="reset-password-submit">Reset Password</button>
 
 
                         </form>
-                        <?php
+                <?php
 
                     }
                 }
 
-            ?>
+                ?>
+            </div>
         </div>
-    </div>
     </main>
 </body>
 

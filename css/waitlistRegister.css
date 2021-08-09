@@ -135,12 +135,19 @@ input:not([type="submit"]):active + .input-requirements {
 	content: "\2713";
 }
 
+#user-email-availability-status span:after{
+  display: inline-block;
+	padding-left: 10px;
+	content: "\2713";
+}
 
-/* .formControl{
-  margin-bottom: 10px;
+.formControl{
+  margin-bottom: 20px;
   position: relative;
   
 }
+
+/* 
 .formControl small{
     color: red;
     padding: 4px;

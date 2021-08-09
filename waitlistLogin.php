@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,75 +16,71 @@
 
 <body>
     <main>
-    <div class="waitListRegisterContainer">
+
+        <div class="waitListRegisterContainer">
 
 
-        <div class="content">
-            <div class="leftContent">
-                <div class="navbar">
-                    <div class="leftNavbar">
-                        <a href="index.php"><img class="logo" style="width: 200px;" src="icons/Logolatest.svg"></a>
-                    </div>
-                </div>
-                <img class="leftImg" src="signUp/images/Individual Step1.png" alt="">
-            </div>
-            <div class="rightContent">
-
-                <div class="rightAllContent">
-                    <div class="navbar mobileOnly">
+            <div class="content">
+                <div class="leftContent">
+                    <div class="navbar">
                         <div class="leftNavbar">
                             <a href="index.php"><img class="logo" style="width: 200px;" src="icons/Logolatest.svg"></a>
                         </div>
                     </div>
-                    <div class="rightAllContentHeading">
-                        <h1>Welcome to TapNetwork</h1>
-                        <p style="font-weight: 500;"></p>
-                    </div>
+                    <img class="leftImg" src="signUp/images/Individual Step1.png" alt="">
+                </div>
+                <div class="rightContent">
 
-                    <div class="signUpPt1">
-                        <form action="includes/status.inc.php" id="form" class="form" method="post">
-                            
-                            <div class=" formControl ">
-                                <label for="email" style="font-weight: 500;">Email Address*</label><br>
-                                <input id="email" type="text" placeholder="Email Address" name="email">
-                                <span id="email-availability-status"></span>
-                                <i class="fas fa-exclamation-circle"></i>
-                                <i class="fas fa-check-circle"></i>
-                                <small>Error Message</small>
+                    <div class="rightAllContent">
+                        <div class="navbar mobileOnly">
+                            <div class="leftNavbar">
+                                <a href="index.php"><img class="logo" style="width: 200px;" src="icons/Logolatest.svg"></a>
                             </div>
+                        </div>
+                        <div class="rightAllContentHeading">
+                            <h1>Welcome to TapNetwork</h1>
+                            <p style="font-weight: 500;"></p>
+                        </div>
 
-                            <div class="formControl">
-                            <label for="pwd">Password*</label><br>
-                            <input id="password" type="password" placeholder="Password" name="pwd">
-                            <i class="fas fa-exclamation-circle"></i>
-                            <i class="fas fa-check-circle"></i>
-                            <small>Error Message</small>
-            
-                            </div>
+                        <div class="signUpPt1">
+                            <form style="margin: 0px 0px 20px 0px;" action="includes/status.inc.php" id="form" class="form" method="post">
 
-                            <input class="register" type="submit" name="submit" value="Check your status" />
+                                <div class=" formControl ">
+                                    <label for="email" style="font-weight: 500;">Email Address*</label><br>
+                                    <input id="email" type="text" placeholder="Email Address" name="email">
+                                    <span id="email-availability-status"></span>
 
-                        </form>
-                        <?php 
-                            if(isset($_GET["newpwd"])){
-                                if ($_GET["newpwd"] = "passwordupdated"){
+                                </div>
+
+                                <div class="formControl">
+                                    <label for="pwd">Password*</label><br>
+                                    <input id="password" type="password" placeholder="Password" name="pwd">
+
+                                </div>
+
+                                <input class="register" type="submit" name="submit" value="Check your status" />
+
+
+
+                            </form>
+                            <?php
+                            if (isset($_GET["newpwd"])) {
+                                if ($_GET["newpwd"] = "passwordupdated") {
                                     echo "<p> Your password has been updated</p>";
                                 }
                             }
-                        ?>
+                            ?>
 
-                        <a href="reset-password.php">Forgot Password?</a>
+                            <a style=" text-decoration:none; color: #2f80ed; " href="reset-password.php">Forgot Password?</a>
+                            <div style="transform: translateY(10px); margin-bottom: 20px;">Not a member? <a href="waitlistRegister.php" style="text-decoration: none; color: #1076FD;">Sign Up</a></div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-    </div>
+        </div>
     </main>
 
-    <script src="signUp/js/intlTelInput.min.js"></script>
-    <script src="signUp/js/telephone.js"></script>
-    <script src="js/waitListValidation.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 
 </body>
