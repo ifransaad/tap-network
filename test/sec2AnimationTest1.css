@@ -1,0 +1,91 @@
+.section2{
+    width: 100%;
+    height: 900px;
+    background-color: aliceblue;
+}
+
+.section2container{
+    box-sizing: border-box;
+    max-width: 1200px;
+    height: 100%;
+    margin: 0px auto;
+    display: flex;
+    padding: 50px 0px;
+}
+
+.sec2Label{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sec2Label li{
+    list-style: none;
+    font-size: 24px;
+    color: black;
+    margin: 10px 5px;
+    cursor: pointer;
+    text-align: end;
+}
+.sec2image{
+    flex: 2;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.displayBoxImage{
+
+}
+.displayBoxImageAgain{
+    width: 100%;
+    position: relative;
+    height: 525px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 1s;
+    
+}
+.sec2image img{
+    position: absolute;
+    width: 302px;
+    margin: 0px 40px;
+}
+.current-image{
+
+}
+.vanish-image{
+    opacity: 0;
+
+    transition: opacity .2s;
+}
+
+
+
+
+
+.sec2writeUp{
+    flex: 3;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.displayBoxWriteUp{
+    height: 150px;
+    width: 70%;
+    overflow: hidden;
+
+}
+.displayBoxWriteUpAgain{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    transition: transform 1s;
+
+
+}
+.anim{
+    position: absolute;
+}

@@ -1,0 +1,554 @@
+*{
+    font-family: 'manrope';
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+
+
+.AbContainer {
+        position: relative;
+        width: 100vw;
+        overflow: hidden;
+    }
+
+    /* Sec1 Start */
+    .aboutUsSection1{
+        background-color: #F1F7FF;
+        width: 100%;
+
+
+    }
+    .LearnMoreSec1 {
+        max-width: 1200px;
+        margin: 0px auto;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Sec1WriteUp{
+     
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    }
+
+    .Sec1WriteUp h3 {
+        padding-top: 40px;
+        font-size: 2em;
+        margin: 0;
+        font-weight: 400;
+
+    }
+
+    .Sec1WriteUp h1 {
+        font-size: 3.5em;
+        margin: 0;
+     font-weight: 800;
+
+    }
+
+    .Sec1Images{
+        display: flex;
+        padding:0px 40px ;
+        justify-content: space-between;
+        align-items:flex-end;
+        width: 100%;
+    }
+
+    .Sec1Images img{
+        width: 402px;
+    }
+
+    /* Sec1 End */
+
+    /* Sec2 Start */
+    .aboutUsSection2{
+        background-color: rgb(255, 255, 255);
+        border-bottom: rgba(128, 128, 128, 0.459) 1px  solid;
+        position: relative;
+
+
+    }
+    .BringingPeopleSec2 {
+        padding: 0px 40px;
+        max-width: 1200px;
+        margin: 0px auto;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 700px;
+    }
+
+    .BringingPeopleSec2WriteUp {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        width: 40%;
+    }
+
+    .BringingPeopleSec2WriteUp h1 {
+        font-size: 2.5em;
+        font-weight: bold;
+        margin-bottom: 0;
+
+    }
+
+    .BringingPeopleSec2WriteUp p {
+        font-size: 1.25em;
+        font-weight: 400;
+
+    }
+
+    .BringingPeopleSec2WriteUp h3 {
+        font-size: 1em;
+        font-weight: bold;
+        color: rgba(14, 111, 255, 1);
+        text-decoration: underline;
+
+    }
+
+    .BringingPeopleSec2Img {
+        position: relative;
+    }
+    .BringingPeopleSec2Img img{
+        width: 500px;
+    }
+
+    /* Sec2 END */
+
+    /* Sec3 Start */
+    .aboutUsSection3{
+        position: relative;
+
+        background-color: rgb(255, 255, 255);
+        border-bottom: rgba(128, 128, 128, 0.459) 1px  solid;
+
+    }
+    .ourVisionSec3 {
+        max-width: 1200px;
+        margin: 0px auto;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 40px;
+        height: 700px;
+    }
+
+    .ourVisionSec3WriteUp {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+    }
+
+    .ourVisionSec3WriteUp h1 {
+        font-size: 2.5em;
+        font-weight: bold;
+        margin-bottom: 0;
+
+    }
+
+    .ourVisionSec3WriteUp p {
+        font-size: 1.25em;
+        font-weight: 400;
+
+    }
+
+    .ourVisionSec3WriteUp h3 {
+        font-size: 1em;
+        font-weight: bold;
+        color: rgba(14, 111, 255, 1);
+        text-decoration: underline;
+
+    }
+
+    .ourVisionSec3Img img{
+        width: 500px;
+    }
+
+    /* Sec3 END */
+
+
+    /* Sec4 Start */
+    .aboutUsSection4{
+        background-color: white;
+        border-bottom: rgba(128, 128, 128, 0.459) 1px  solid;
+
+    }
+    .advisorsSec4 {
+        max-width: 1200px;
+        margin:40px auto;
+        padding: 0px 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .advisorsSec4WriteUp{
+        width: 100%;
+        text-align: center;
+    }
+    .advisorsSec4WriteUp h1 {
+        font-weight: 600;
+        font-size: 2.5em;
+        text-align: center;
+        padding-bottom: 5vh;
+        margin: 0;
+    }
+
+    .advisorsSec4WriteUp p {
+        font-size: 1.313em;
+        text-align: center;
+        padding-bottom: 6vh;
+        margin: 0;
+    }
+
+    .advisorsSec4Team {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 20px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .advisorsSec4TeamContainer img {
+        width: 200px;
+        height: 250px;
+        border-radius: 20px;
+    }
+
+    .advisorsSec4TeamContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0px;
+    }
+
+    .advisorsSec4Team h2 {
+        font-size: 1.3em;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .advisorsSec4Team h3 {
+        font-size: 1em;
+        font-weight: 500;
+        margin: 0px 0px 0px 0px;
+    }
+
+    /* Sec4 END */
+
+
+    /* Sec5 Start */
+    .aboutUsSection5{
+        background-color: white;
+
+    }
+    .managementTeamSec5 {
+        max-width: 1200px;
+        margin: 60px auto;
+        padding: 0px 40px;
+        width: 100%;
+    }
+
+    .managementTeamSec5WriteUp h1 {
+        font-weight: 600;
+        font-size: 2.5em;
+        text-align: center;
+        padding-bottom: 5vh;
+        margin: 0;
+    }
+
+    .managementTeamSec5WriteUp p {
+        font-size: 1.313em;
+        text-align: center;
+        padding-bottom: 6vh;
+        margin: 0;
+    }
+
+    .managementTeamSec5Team {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 20px;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .managementTeamSec5Team a{
+        text-decoration: none;
+        color: inherit;
+        transition: .5s;
+        border-radius: 20px;
+    }
+
+    .managementTeamSec5Team a:hover{
+        box-shadow: 2px -2px 10px 2px rgba(128, 128, 128, 0.226);
+    }
+
+
+    .managementTeamSec5TeamContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 20px;
+
+    }
+
+    .managementTeamSec5TeamContainer img {
+        width: 200px;
+        height: 250px;
+        border-radius: 20px;
+    }
+
+    .managementTeamSec5Team h2 {
+        font-size: 1.2em;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .managementTeamSec5Team h3 {
+        font-size: .9em;
+        font-weight: 500;
+        margin: 0px 0px 0px 0px;
+    }
+
+
+
+  @media screen and (max-width: 480px) {
+        body{
+            font-size: 13px;
+        }
+
+        .hidden{
+            position: absolute;
+            visibility: hidden;
+            transform: scale(0);
+        }
+        .Sec1WriteUp{
+            font-size: 6px;
+        }
+
+        .Sec1WriteUp,
+        .BringingPeopleSec2,.ourVisionSec3{
+            justify-content: center;
+            height: auto;
+
+        }
+       .BringingPeopleSec2{
+            justify-content: center;
+
+
+       }
+
+       .BringingPeopleSec2WriteUp,.ourVisionSec3WriteUp{
+           font-size: 10px;
+           width: 90%;
+       }
+
+
+
+    .managementTeamSec5Team{
+        justify-content: center;
+    }    
+    
+    .advisorsSec4Team{
+        justify-content: center;
+    }
+
+     .aboutUsSection2{
+        background-color: rgba(255, 255, 255, 0);
+     }
+     .aboutUsSection3{
+        background-color: rgba(255, 255, 255, 0);
+     }
+
+    .aboutUsSection2::after {
+        content: "";
+        background: url(../aboutUs/Images/sec2right.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        opacity: 0.2;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;   
+}
+    .aboutUsSection3::after {
+        content: "";
+        background: url(../aboutUs/Images/sec3left.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        opacity: 0.2;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;   
+}
+
+.advisorsSec4WriteUp h1{
+    font-size: 28px;
+}
+.advisorsSec4WriteUp p{
+    font-size: 15px;
+}
+
+.advisorsSec4Team h2 {
+    font-size: 24px;
+    width: 100%;
+    text-align: left;
+}
+.advisorsSec4Team h3 {
+    font-size: 18px;
+    width: 100%;
+    text-align: left;
+}
+
+.advisorsSec4TeamContainer img{
+
+    height: 330px;
+    width: 278px;
+
+}
+
+.managementTeamSec5WriteUp h1{
+    font-size: 28px;
+}
+.managementTeamSec5WriteUp p{
+    font-size: 15px;
+}
+
+.managementTeamSec5TeamContainer h2{
+        font-size: 24px;
+    width: 100%;
+    text-align: left;
+
+}
+.managementTeamSec5TeamContainer h3{
+        font-size: 18px;
+    width: 100%;
+    text-align: left;
+
+}
+.managementTeamSec5TeamContainer img{
+     height: 330px;
+    width: 278px;
+
+}
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    @media screen and (max-width: 768px) and (min-width: 481px) {
+        body{
+            font-size: 13px;
+        }
+        .Sec1WriteUp,
+        .Sec1Images,.BringingPeopleSec2,.ourVisionSec3{
+            transform: translateX(-3vw);
+        }
+       .BringingPeopleSec2{
+            justify-content: center;
+
+
+       }
+
+       .advisorsSec4WriteUp{
+            align-self: center;
+
+       }
+       .advisorsSec4{
+           padding: 5vh 5vw;
+           
+            align-items: flex-start;
+         }
+
+       .advisorsSec4Team{
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+
+        .managementTeamSec5{
+            padding: 5vh 5vw;           
+            align-items: flex-start;
+        }
+
+       .managementTeamSec5Team{
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+    }
+    
+
+    @media screen and (max-width: 1024px) and (min-width: 769px)  {
+        body{
+            font-size: 13px;
+        }
+        .Sec1WriteUp,
+        .Sec1Images,.BringingPeopleSec2,.ourVisionSec3{
+            transform: translateX(-3vw);
+        }
+       .BringingPeopleSec2{
+            justify-content: center;
+
+
+       }
+
+       .advisorsSec4WriteUp{
+            align-self: center;
+
+       }
+       .advisorsSec4{
+           padding: 5vh 5vw;
+           
+            align-items: flex-start;
+         }
+
+       .advisorsSec4Team{
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+
+        .managementTeamSec5{
+            padding: 5vh 5vw;           
+            align-items: flex-start;
+        }
+
+       .managementTeamSec5Team{
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+    }
+
+
+    @media screen and (max-width: 1440px) and (min-width: 1024px)  {
+
+    }
+
