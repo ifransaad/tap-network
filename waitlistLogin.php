@@ -63,16 +63,23 @@
 
 
                             </form>
+                            
+                            <a style=" text-decoration:none; color: #2f80ed; " href="reset-password.php">Forgot Password?</a>
+                            <div style="transform: translateY(10px); margin-bottom: 20px;">Not a member? <a href="waitlistRegister.php" style="text-decoration: none; color: #1076FD;">Sign Up</a></div>
                             <?php
+                            if(isset($_GET["error"])){
+                                if($_GET["error"] == "wrongpassword"){
+                                    echo "<span style='color:red; font-size:18px;'>Sorry, Password does not match!</span>";
+                                } 
+                            }
+
                             if (isset($_GET["newpwd"])) {
                                 if ($_GET["newpwd"] = "passwordupdated") {
-                                    echo "<p> Your password has been updated</p>";
+                                    echo "<p> Your password has been updated. You can login again with the new password.</p>";
                                 }
                             }
                             ?>
 
-                            <a style=" text-decoration:none; color: #2f80ed; " href="reset-password.php">Forgot Password?</a>
-                            <div style="transform: translateY(10px); margin-bottom: 20px;">Not a member? <a href="waitlistRegister.php" style="text-decoration: none; color: #1076FD;">Sign Up</a></div>
                         </div>
                     </div>
                 </div>

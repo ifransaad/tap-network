@@ -40,10 +40,7 @@ $query = "SELECT * FROM waitlist";
 <div class="thankyouContainer">
 
     <div class="sec1">
-        <h1>Thank you, <?php echo htmlspecialchars($_GET['email'] ?? ''); ?> <br> for joining the waitlist!
-            <br>
-            <!-- We will email you as soon as we launch so you can be one of the <br>
-        FIRST ones to have access to our platform and our Tap Cards!! -->
+        <h1>Thank you, <?php echo htmlspecialchars($_GET['name'] ?? ''); ?> <br> for joining the waitlist!
         </h1>
     </div>
 

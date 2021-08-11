@@ -162,7 +162,7 @@ function createUserWaitlist($conn, $name, $email, $pwd, $refer){
     mysqli_stmt_execute($stmt);
     
     mysqli_stmt_close($stmt);
-    header("location: ../thankYou.php?email=".htmlspecialchars($_POST['email'] ?? '')."");
+    header("location: ../thankYou.php?email=".htmlspecialchars($_POST['email'] ?? '')."&name=".htmlspecialchars($_POST['name'] ?? '')."");
     exit();
 }
 

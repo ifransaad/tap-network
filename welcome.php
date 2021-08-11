@@ -9,6 +9,7 @@ $query = "SELECT * FROM waitlist";
     if($result = $conn->query($query)){
         while ($row = $result->fetch_assoc()){
             $point = $row ["usersPoint"];
+            $name = $row ["usersName"];
         }
     }
 
@@ -41,7 +42,7 @@ $query = "SELECT * FROM waitlist";
     <div class="thankyouContainer">
 
 <div class="sec1">
-    <h1>Welcome, <?php echo htmlspecialchars($_GET['email'] ?? ''); ?> <br> to TapNetwork!
+    <h1>Welcome, <?php echo $name; ?> <br> to TapNetwork!
         <br>
     </h1>
 </div>

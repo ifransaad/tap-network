@@ -115,16 +115,6 @@ $refer = htmlspecialchars($_GET['refer'] ?? '');
 
                         </form>
                         <div style="transform: translateY(10px); margin-bottom: 20px;">Already a member? <a href="waitlistLogin.php" style="text-decoration: none; color: #1076FD;">Login</a></div>
-                            <?php
-                                if(isset($_GET["error"])){
-                                    if($_GET["error"] == "invalidemail"){
-                                        echo "<span style='color:red; font-size:2px;'>Email is not valid!</span>";
-                                    } else if($_GET["error"] == "emailtaken"){
-                                        echo "<span style='color:red'>Sorry, email is already taken!</span>";
-                                    }
-                                }
-
-                            ?>
                     </div>
                 </div>
             </div>
