@@ -16,6 +16,7 @@ $refer = htmlspecialchars($_GET['refer'] ?? '');
     <title>Join Our Waitlist</title>
     <link rel="shortcut icon" type="image/jpg" href="icons/favicon.svg" />
     <link rel="stylesheet" href="css/waitlistRegister.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 
 
@@ -84,9 +85,11 @@ $refer = htmlspecialchars($_GET['refer'] ?? '');
 
                             <label for="password">
                                 <span>Password</span>
+                                
 
                                 <input type="password" id="password" placeholder="Password" maxlength="100" minlength="8" name="pwd" required>
-
+                                <i class="bi bi-eye-slash" id="togglePassword"></i>
+                                
                                 <ul class="input-requirements">
                                     <li>At least 8 characters long (and less than 100 characters)</li>
                                     <li>Contains at least 1 number</li>
@@ -95,14 +98,18 @@ $refer = htmlspecialchars($_GET['refer'] ?? '');
                                     <li>Contains a special character (e.g. @ !)</li>
                                 </ul>
                             </label>
+                            
 
                             <label for="password_repeat">
                                 <span>Repeat Password</span>
                                 <input type="password" id="password_repeat" placeholder="Retype Password" maxlength="100" minlength="8" name="pwdrepeat" required>
-
+                                
+                                <i class="bi bi-eye-slash" id="togglePassword"></i>
                                 <ul class="input-requirements">
                                 </ul>
+                                
                             </label>
+                            
 
                             <label for="refer">
                                 <span>Referer</span>
@@ -123,7 +130,7 @@ $refer = htmlspecialchars($_GET['refer'] ?? '');
 
 
 
-    <script src="js/waitListValidation.js"></script>
+    <script src="js/waitlistValidation.js"></script>
     <script src="js/jquery-3.6.0.min.js"></script>
     
 
