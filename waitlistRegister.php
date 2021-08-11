@@ -116,7 +116,7 @@ $refer = htmlspecialchars($_GET['refer'] ?? '');
                                     <ul class="input-requirements">
                                         <li>Password Match</li>
                                     </ul>
-                                    <i class="bi bi-eye-slash passVisible" id="togglePassword"></i>
+                                    <i class="bi bi-eye-slash passVisible" id="toggleRetypePassword"></i>
 
                                 </div>
 
