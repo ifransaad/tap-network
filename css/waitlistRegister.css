@@ -147,38 +147,10 @@ input:not([type="submit"]):active + .input-requirements {
   
 }
 
-/* 
-.formControl small{
-    color: red;
-    padding: 4px;
-    visibility: hidden;
+form i {
+    margin-left: 400px;
+    cursor: pointer;
 }
-
-.formControl i{
-    position: absolute;
-    transform: translateY( -28px);
-    right: 20px;
-    visibility: hidden;
-}
-.formControl.success input{
-    border-color:  rgb(10, 211, 10);
-}
-.formControl.success i.fa-check-circle{
-    color: rgb(10,211,10);
-    visibility: visible;
-}
-.formControl.error input{
-     border-color:  rgb(204, 48, 48);
-
-}
-.formControl.error i.fa-exclamation-circle{
-    color: rgb(204, 48, 48);
-    visibility: visible;
-}
- .formControl.error small{
-    visibility: visible;
-
-} */
 
 input[type="text"],select,
 input[type="password"], input[type="tel"] {
