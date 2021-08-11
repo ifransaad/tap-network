@@ -192,8 +192,8 @@ include_once 'header.php';
         </div>
         <div class="sec4image">
             <div class="sec4backgroundColor"></div>
-            <img class="hidden" src="icons/Dashboard.png">
-            <img class="responsiveHidden" src="icons/Phone Dashboard.png" alt="">
+            <img class="desktopDashboard hidden" src="icons/Dashboard.png">
+            <img class="phoneDashboard responsiveHidden" src="icons/Phone Dashboard.png" alt="">
         </div>
     </div>
     <!-- Section 4 End -->

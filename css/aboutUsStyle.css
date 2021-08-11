@@ -331,11 +331,11 @@ body{
             font-size: 13px;
         }
 
-        .hidden{
+        /* .hidden{
             position: absolute;
             visibility: hidden;
             transform: scale(0);
-        }
+        } */
         .Sec1WriteUp{
             font-size: 6px;
         }

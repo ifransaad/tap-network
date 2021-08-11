@@ -517,7 +517,7 @@ position: absolute;
 }
 
 
-.sec4image img{
+.desktopDashboard{
     position: absolute;
     transform: translate(50px,60px);
     width: 50%;
@@ -836,10 +836,7 @@ body{
     padding: 0px 20px;
 }
 
-.hidden{
-  visibility: hidden;
-  position: absolute;
-}
+
 
 .responsiveHidden{
     visibility: visible;
@@ -1051,59 +1048,6 @@ body{
     height: 100vh;
 }
 
-
-/* .section2{
-    height: auto;
-}
-.section2container{
-    flex-direction: column;
-}
-.sec2Label{
-    display: flex;
-    justify-content: center;
-    order: 2;
-}
-.sec2LabelLink{
-    display: flex;
-    width: 100%;
-    margin: 30px 0px;
-}
-.sec2LabelLink li{
-    font-size: 22px;
-    margin: 0px 20px;
-}
-
-
-
-
-.sec2image{
-    width: 100%;
-    height: 600px;
-    order: 1;
-}
-.displayBoxImageAgain{
-    height: 600px;
-}
-.sec2writeUp{
-    width: 100%;
-    order:3
-}
-
-.anim{
-    text-align: center;
-    position: absolute;
-}
-.anim h2{
-    font-size: 20px;
-    margin: 10px 0px;
-}
-.anim p{
-    font-size: 15px;
-} */
-
-/* Sec2End */
-
-
 .sec3writeup{
     font-size: 24px;
     margin-bottom: 0;
@@ -1158,11 +1102,14 @@ body{
 
 .sec4image{
     position: relative;
-    height: 100%;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 0;
 
 }
-.sec4image img {
-    width: 80%;
+.phoneDashboard {
+    height: auto;
 }
 
 /* Sec4End */
@@ -1318,6 +1265,13 @@ flex-direction: column;
 .footerCopyright-Right{
 align-self: flex-end;
 
+}
+
+
+.hidden{
+  visibility: hidden;
+  position: absolute;
+  transform: scale(0);
 }
 
 
