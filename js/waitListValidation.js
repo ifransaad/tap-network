@@ -151,7 +151,8 @@ var passwordRepeatValidityChecks = [
 		isInvalid: function() {
 			return passwordRepeatInput.value != passwordInput.value;
 		},
-		invalidityMessage: 'This password needs to match the first one'
+		element: document.querySelector('label[for="password_repeat"] .input-requirements li:nth-child(1)')
+
 	}
 ];
 

@@ -115,11 +115,15 @@ input:not([type="submit"]) + .input-requirements {
   transition: max-height .5s ease-out;  
 }
 
-input:not([type="submit"]):hover + .input-requirements,
 input:not([type="submit"]):focus + .input-requirements,
 input:not([type="submit"]):active + .input-requirements {
   max-height: 1000px; /* any large number (bigger then the .input-requirements list) */
   transition: max-height 1s ease-in;
+}
+
+.inputSection:hover .input-requirements{
+      max-height: 1000px; /* any large number (bigger then the .input-requirements list) */
+    transition: max-height .5s ease-in;
 }
 
 .input-requirements li.invalid {
@@ -147,8 +151,15 @@ input:not([type="submit"]):active + .input-requirements {
   
 }
 
-form i {
-    margin-left: 400px;
+.inputSection{
+    position: relative;
+}
+
+.passVisible{
+    position: absolute;
+    display: block;
+    top: 40px;
+    right: 20px;
     cursor: pointer;
 }
 
