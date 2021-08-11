@@ -11,10 +11,10 @@ if(!empty($_POST["email"])) {
       $row = mysqli_fetch_row($result);
       $email_count = $row[0];
       if($email_count>0) {
-      echo "<p style='color:red'>Sorry, email is already taken!</p>";
+      echo "<p style='color:#e74c3c'>Sorry, email is already taken!</p>";
       echo "<script>$('#submit').prop('disabled',true);</script>";  
       } else {
-        echo "<span style='color:green'>Email is available</span>";
+        echo "<span style='color:#2ecc71'>Email is available</span>";
         echo "<script>$('#submit').prop('disabled',false);</script>";
       }
   }

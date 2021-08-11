@@ -145,6 +145,7 @@ $refer = htmlspecialchars($_GET['refer'] ?? '');
 
 
     <script src="js/waitlistValidation.js"></script>
+    <script src="js/passvisible.js"></script>
     <script src="js/jquery-3.6.0.min.js"></script>
 
 

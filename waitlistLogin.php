@@ -9,8 +9,8 @@
     <link rel="shortcut icon" type="image/jpg" href="icons/favicon.svg" />
     <link rel="stylesheet" href="css/waitlistRegister.css">
     <link rel="stylesheet" href="css/intlTelInput.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/03a159b6a0.js" crossorigin="anonymous"></script>
 
     <script>
         //This function checks email-availability-status
@@ -72,11 +72,11 @@
                                 <div class="formControl">
                                     <label for="pwd">Password*</label><br>
                                     <input id="password" type="password" placeholder="Password" name="pwd">
-
+                                    <i class="bi bi-eye-slash passVisible" id="togglePassword"></i>
                                 </div>
 
                                 <input class="register" type="submit" name="submit" value="Check Your Status" />
-
+                                
 
 
                             </form>
@@ -104,7 +104,7 @@
 
         </div>
     </main>
-
+    <script src="js/passvisible.js"></script>                 
     <script src="js/jquery-3.6.0.min.js"></script>
 
 </body>
