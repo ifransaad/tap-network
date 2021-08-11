@@ -45,7 +45,7 @@
 
                 <div class=" hidden ">
                     <button onclick="document.location='waitlistLogin.php'" class="login" style="color: rgba(47, 128, 237, 1);">Login</button>
-                    <button onclick="document.location='waitlistRegister.php' " class="navSignup"> Get your free card</button>
+                    <button onclick="document.location='waitlistRegister.php' " class="navSignup"> Get Your Free Card</button>
                 </div>
 
                 <div class="responsiveBar">

@@ -60,7 +60,7 @@ $refer = htmlspecialchars($_GET['refer'] ?? '');
                     <div class="rightAllContentHeading">
                         <h1>Register for an invitation!</h1>
                         <p style="font-weight: 500;">An email will be sent to you for you to register <br>
-                            an account once we are up and running.</p>
+                            on our platform once we are up and running.</p>
                     </div>
 
                     <div class="signUpPt1">
