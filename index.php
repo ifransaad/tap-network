@@ -227,8 +227,8 @@ include_once 'header.php';
             <div class="sec5lower_gridHeading">
                 <h1>Save Mother Earth</h1>
             </div>
-            <div class="sec5lower_gridImage">
-                <img src="icons/save mother earth.png" alt="" srcset="">
+            <div class="sec5lower_gridImage hidden">
+                <img src="icons/save_mother_earth.png" alt="" srcset="">
             </div>
             <div class="sec5lower_gridWriteUp">
                 <div class="sec5lower_gridWriteUpTop">
