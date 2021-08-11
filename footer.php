@@ -20,7 +20,7 @@
         <p>&copy; <?php echo date("Y"); ?> The Tap Network. All rights reserved</p>
         <div class="footerCopyright-Right">
             <img src="icons/Mini_Icon/instagram.svg" alt="instagram">
-            <img src="icons/Mini_Icon/ball.svg" alt="">
+            <img src="icons/Mini_Icon/linkedin.svg" alt="linkedin">
             <img src="icons/Mini_Icon/twitter.svg" alt="youtube">
             <img src="icons/Mini_Icon/youtube.svg" alt="twitter">
 
