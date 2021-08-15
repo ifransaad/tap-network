@@ -63,20 +63,25 @@ body,html{
 .thankYouContainer_Body_Box_Left{
     flex: 1;
 }
+.thankYouContainer_Body_Box_Left_Up{
+    display: flex;
+    align-items: center;
+}
 .thankYouContainer_Body_Box_Left h1, .thankYouContainer_Body_Box_Right h1{
     display: inline-block;
-    margin: 20px 10px;
+    margin: 0px 10px;
     font-size: 64px;
     font-weight: bold;
 }
 .thankYouContainer_Body_Box_Left h3{
     display: inline-block;
-    margin: 0;
+    margin: 0px;
+    margin-top: 5px;
     font-size: 24px;
     font-weight: normal;
 }
 .thankYouContainer_Body_Box_Left h2{
-    margin: 0;
+    margin:0px;
     font-size: 24px;
     font-weight: 500;
 }

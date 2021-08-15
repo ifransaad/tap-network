@@ -45,8 +45,11 @@ $query = "SELECT * FROM waitlist";
             </div>
             <div class="thankYouContainer_Body_Box">
                 <div class="thankYouContainer_Body_Box_Left">
-                    <h1 style="color: #2F80ED;"><?php echo $point; ?></h1>
-                    <h3>TapCash</h3>
+                    <div class="thankYouContainer_Body_Box_Left_Up">
+                        <h1 style="color: #2F80ED;"><?php echo $point; ?></h1>
+                        <h3>TapCash</h3>
+                    </div>
+                    
                     <h2>Available in your Vault</h2>
                 </div>
                 <div class="thankYouContainer_Body_Box_Right">
