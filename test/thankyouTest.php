@@ -24,7 +24,7 @@
     <div class="thankYouContainer">
         <div class="thankYouContainer_Body">
             <div class="thankYouContainer_Body_WriteUp">
-                <h2>Welcome <?php echo htmlspecialchars($_GET['name'] ?? ''); ?> </h2>
+                <h2>Welcome, <?php echo htmlspecialchars($_GET['name'] ?? ''); ?> </h2>
                 <p>Share your link with a friend. When they signup, you both receive 100 TapCash. You can claim a free card after having a balance of 400 TapCash.</p>
             </div>
             <div class="thankYouContainer_Body_Box">
