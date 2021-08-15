@@ -1088,6 +1088,7 @@ body{
 }
 .phoneDashboard {
     height: auto;
+    image-rendering: -moz-crisp-edges;
 }
 
 /* Sec4End */

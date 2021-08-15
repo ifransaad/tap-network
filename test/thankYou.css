@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'manrope' ;
+    src: url(../tap-network-main/Fonts/Manrope-VariableFont_wght.ttf);
+}
+*{
+    font-family: 'manrope';
+    box-sizing: border-box;
+
+}
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+.navbarContent{
+    position: relative;
+    
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 10px 65px 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.logo{
+    width: 200px;
+
+}
+.thankYouContainer{
+    position: relative;
+
+}
+
+.thankYouContainer_Body{
+    background-color: #F1F7FF;
+    padding: 60px;
+}
+.thankYouContainer_Body_WriteUp{
+    text-align: center;
+    max-width: 600px;
+    margin: 0px auto;
+}
+.thankYouContainer_Body_Box{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:3px 3px 15px rgba(0, 0, 0, 0.250) ;
+    max-width: 700px;
+    height: 250px;
+    margin: 50px auto;
+    padding:20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.thankYouContainer_Body_Box_Left{
+    flex: 1;
+}
+.thankYouContainer_Body_Box_Left h1, .thankYouContainer_Body_Box_Right h1{
+    display: inline-block;
+    margin: 20px 10px;
+    font-size: 64px;
+    font-weight: bold;
+}
+.thankYouContainer_Body_Box_Left h3{
+    display: inline-block;
+    margin: 0;
+    font-size: 24px;
+    font-weight: normal;
+}
+.thankYouContainer_Body_Box_Left h2{
+    margin: 0;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.thankYouContainer_Body_Box_Right{
+    flex: .75;
+    padding: 0px 30px;
+    border-left: 1px solid #BEBEBE;
+}
+
+.thankYouContainer_Body_Box_Right p{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+.thankYouContainer_ReferLink{
+        max-width: 700px;
+    margin: 40px auto;
+
+}
+
+.thankYouContainer_ReferLink_box{
+    position: relative;
+    height: 99px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.thankYouContainer_ReferLink_box_left{
+    flex: .65;
+    padding: 0px;
+    padding-right: 20px;
+    position: relative;
+}
+.thankYouContainer_ReferLink_box_left h3{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 5px;
+}
+input[ type="text" ]{
+    width: 100%;
+    height: 60px;
+    padding: 10px 60px 10px 20px;
+    outline: none;
+    border: 1px solid #AAA;
+    border-radius: 6px;
+    box-shadow: 0px 3px 10px 3px rgba(0, 0, 0, 0.11);
+}
+button{
+    position: absolute;
+    text-decoration: none;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    right: 35px;
+    top: 40px;
+}
+
+.thankYouContainer_ReferLink_box_right{
+    flex: .35;
+    background-color:#2F80ED ;
+    height: 100%;
+    border-radius: 6px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.thankYouContainer_ReferLink_box_right h1{
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+.thankYouContainer_ReferLink_box_right h2{
+    font-size: 16px;
+    font-weight: 400;
+        margin: 0;
+
+}
+
+.thankYouContainer_ReferLink_ApiBox{
+    width: fit-content;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color:#F1F7FF ;
+    border-radius: 16px;
+    padding: 0px 10px;
+}
+
+.thankYouContainer_ReferLink_ApiBox img{
+    margin: 10px;
+}
+

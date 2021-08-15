@@ -96,11 +96,11 @@ include_once 'header.php';
         </div>
         <div class="sec2ResponsiveContainer responsiveHidden">
             <div class="slider-container">
-                <div class="slide active"> <img src="icons/PhoneSec2/AddContactPhone.svg" alt="" />
+                <div class="slide active"> <img src="icons/PhoneSec2/AddContactPhone.png" alt="" />
                 </div>
-                <div class="slide "> <img src="icons/PhoneSec2/ShowOffPhone.svg" alt="" />
+                <div class="slide "> <img src="icons/PhoneSec2/ShowOffPhone.png" alt="" />
                 </div>
-                <div class="slide "> <img src="icons/PhoneSec2/CustomWidgPhone.svg" alt="" />
+                <div class="slide "> <img src="icons/PhoneSec2/CustomWidgPhone.png" alt="" />
                 </div>
                 <div class="slide "> <img src="icons/PhoneSec2/Personalize Phone New Version.png" alt="" />
                 </div>
@@ -193,7 +193,7 @@ include_once 'header.php';
         <div class="sec4image">
             <div class="sec4backgroundColor"></div>
             <img class="desktopDashboard hidden" src="icons/Dashboard.png">
-            <img class="phoneDashboard responsiveHidden" src="icons/Phone Dashboard.png" alt="">
+            <img class="phoneDashboard responsiveHidden" src="icons/Phone Dashboard.svg" alt="">
         </div>
     </div>
     <!-- Section 4 End -->

@@ -31,7 +31,6 @@ margin: 0;
 
 .content{
     display: flex;
-    height: 100%;
 }
 .leftContent{
     flex: 4;
@@ -48,7 +47,9 @@ margin: 0;
     top: 50%;
     transform: translateY(-70%);
 }
-
+.navbar.right{
+    visibility: hidden;
+}
 .rightContent{
     flex: 6;
     height: 100%;
