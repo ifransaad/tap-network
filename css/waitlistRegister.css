@@ -15,6 +15,11 @@ margin: 0;
     visibility: hidden;
     transform: scale(0);
 }
+.notMobileOnly{
+        position: relative;
+    visibility: visible;
+    transform: scale(1);
+}
 
 .waitListRegisterContainer{
     max-width: 1200px;
@@ -245,19 +250,10 @@ margin: 0;
     visibility: visible;
     transform: scale(1);
 }
-body::after {
-  content: "";
-  background: url(../signUp/images/Individual\ Step1.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  opacity: 0.3;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;   
+.notMobileOnly{
+    position: absolute;
+    visibility: visible;
+    transform: scale(0);
 }
 
 .leftContent{

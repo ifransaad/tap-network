@@ -51,7 +51,7 @@ $refer = htmlspecialchars($_GET['refer'] ?? '');
                 <img class="leftImg" src="signUp/images/Individual Step1.png" alt="">
             </div>
             <div class="rightContent">
-                <div class="navbar right">
+                <div class="navbar right notMobileOnly">
                     <div class="leftNavbar">
                         <a href="index.php"><img class="logo" style="width: 200px;" src="icons/Logolatest.svg"></a>
                     </div>
