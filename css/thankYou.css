@@ -78,7 +78,7 @@ body,html{
     margin: 0px;
     margin-top: 5px;
     font-size: 24px;
-    font-weight: normal;
+    font-weight: 500;
 }
 .thankYouContainer_Body_Box_Left h2{
     margin:0px;
@@ -93,6 +93,7 @@ body,html{
 }
 
 .thankYouContainer_Body_Box_Right p{
+    transform: translateY(8px);
     margin: 0;
     font-size: 18px;
     font-weight: 400;
