@@ -63,12 +63,7 @@ include_once 'header.php';
                     <h3>CTO Broadridge</h3>
                 </div>
 
-                <div class="advisorsSec4TeamContainer">
-                    <img src="aboutUs/Images/employer/Advisor/Ad_2.png" alt="">
 
-                    <h2>DK Smith</h2>
-                    <h3>CSO Brooklyn Innovation</h3>
-                </div>
                 <div class="advisorsSec4TeamContainer">
                     <img src="aboutUs/Images/employer/Advisor/Ad_3.png" alt="">
 
