@@ -15,23 +15,6 @@ $query = "SELECT * FROM waitlist";
 
 ?>
 
-
-<?php
-
-
-include 'includes/dbh.inc.php';
-
-include 'includes/functions.inc.php';
-
-$query = "SELECT * FROM waitlist";
-    if($result = $conn->query($query)){
-        while ($row = $result->fetch_assoc()){
-            $point = $row ["usersPoint"];
-        }
-    }
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
