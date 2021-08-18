@@ -63,12 +63,12 @@ include_once 'header.php';
                     <h3>CTO Broadridge</h3>
                 </div>
 
-                <div class="advisorsSec4TeamContainer">
-                    <img src="aboutUs/Images/employer/Advisor/Ad_2.png" alt="">
+                <!--<div class="advisorsSec4TeamContainer">-->
+                <!--    <img src="aboutUs/Images/employer/Advisor/Ad_2.png" alt="">-->
 
-                    <h2>DK Smith</h2>
-                    <h3>CSO Brooklyn Innovation</h3>
-                </div>
+                <!--    <h2>DK Smith</h2>-->
+                <!--    <h3>CSO Brooklyn Innovation</h3>-->
+                <!--</div>-->
                 <div class="advisorsSec4TeamContainer">
                     <img src="aboutUs/Images/employer/Advisor/Ad_3.png" alt="">
 
@@ -92,7 +92,7 @@ include_once 'header.php';
     <div class="aboutUsSection5">
         <div class="managementTeamSec5">
             <div class="managementTeamSec5WriteUp">
-                <h1>Management Team</h1>
+                <h1>Our Team</h1>
                 <p>Our team has a comprehensive skill set that enables Tap Network to grow and flourish!</p>
             </div>
             <div class="managementTeamSec5Team">
@@ -105,13 +105,13 @@ include_once 'header.php';
                 <a target="#" href="https://www.linkedin.com/in/divya-dommaraju" class="managementTeamSec5TeamContainer">
                     <img src="aboutUs/Images/employer/Team/2 Divya Dommuraju.png" alt="">
 
-                    <h2>Divya Dommuraju</h2>
+                    <h2>Divya Dommaraju</h2>
                     <h3>Vice President of Operations</h3>
                 </a>
                 <a target="#" href="https://www.linkedin.com/in/keon-jeffers-alleyne-32643b192" class="managementTeamSec5TeamContainer">
                     <img src="aboutUs/Images/employer/Team/3 Keon Jeffers-Alleyene.png" alt="">
 
-                    <h2>Keon Jeffers-Alleyene</h2>
+                    <h2>Keon Jeffers-Alleyne</h2>
                     <h3>Vice President of Marketing</h3>
                 </a>
                 <a target="#" href="https://www.linkedin.com/in/arik-noor-902694201" class="managementTeamSec5TeamContainer">
@@ -141,20 +141,20 @@ include_once 'header.php';
                 <div class="managementTeamSec5TeamContainer">
                     <img src="aboutUs/Images/employer/Team/8 Sheikh Karim.png" alt="">
 
-                    <h2>Skeikh Karim</h2>
+                    <h2>Sheikh Karim</h2>
                     <h3>Operations Intern</h3>
                 </div>
 
                 <div class="managementTeamSec5TeamContainer">
                     <img src="aboutUs/Images/employer/Team/9 Kemilla Chasva.png" alt="">
 
-                    <h2>Kemilla Chasva</h2>
+                    <h2>Kemila Chasva</h2>
                     <h3>Operations Intern</h3>
                 </div>
                 <div class="managementTeamSec5TeamContainer">
                     <img src="aboutUs/Images/employer/Team/10 Mashrufa Yasmin.png" alt="">
-                    <h2>Mashrufa Yasmin</h2>
-                    <h3>Business Development Intern</h3>
+                    <h2>Arshad Hoossain</h2>
+                    <h3>Operations Intern</h3>
                 </div>
                 <div class="managementTeamSec5TeamContainer">
                     <img src="aboutUs/Images/employer/Team/11 Navraj Kaur.png" alt="">
@@ -184,8 +184,8 @@ include_once 'header.php';
                 <div class="managementTeamSec5TeamContainer">
                     <img src="aboutUs/Images/employer/Team/15 Henry Lin.png" alt="">
 
-                    <h2>Henry Lin</h2>
-                    <h3>Business Development Intern</h3>
+                    <h2>Nick Vicencio</h2>
+                    <h3>Marketing Intern</h3>
                 </div>
                 <div class="managementTeamSec5TeamContainer">
                     <img src="aboutUs/Images/employer/Team/16 Jaydan Clarke.png" alt="">
@@ -231,12 +231,5 @@ include_once 'header.php';
     }
     
 </script>
-
-<!--<script src="js/windowScroll/windowScrollAboutUs.js"></script>-->
-<!--<script src="js/navBarRes.js"></script>-->
-
-
-
 </body>
-
 </html>

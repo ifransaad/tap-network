@@ -13,6 +13,17 @@ $query = "SELECT * FROM waitlist";
         }
     }
 
+$sql = "SELECT * FROM walitlist";
+        if($result = $conn->query($sql)){
+            while ($row = $result->fetch_assoc()){
+                $pointSys = $row ["usersPoint"];
+                if ($row ["usersEmail"] = $row ["usersRefer"]){
+                    $pointSys = "UPDATE waitlist SET usersPoint = usersPoint+100";
+                }
+                
+            }
+        }
+
 ?>
 
 <!DOCTYPE html>
