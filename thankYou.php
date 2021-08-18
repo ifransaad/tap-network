@@ -53,7 +53,7 @@ $query = "SELECT * FROM waitlist";
                     <h2>Available in your Vault</h2>
                 </div>
                 <div class="thankYouContainer_Body_Box_Right">
-                    <h1>400</h1>
+                    <h1><?php echo 400-$point; ?></h1>
                     <p>TapCash required to claim a free card</p>
                 </div>
             </div>

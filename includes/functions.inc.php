@@ -234,3 +234,113 @@ function waitlistlogin($conn, $email, $pwd) {
         exit();
     }
 }
+
+//admin
+
+function createUserAdmin($conn, $name, $email, $pwd){
+    $sql = "INSERT INTO admin (usersName, usersEmail, usersPwd) VALUES (?,?,?);";
+    mysqli_query($conn, $sql);
+    $stmt = mysqli_stmt_init($conn);
+    if(!mysqli_stmt_prepare($stmt, $sql)){
+        header("location: ../admin-signup.php?error=failedtoregister");
+        exit();
+    }
+    $hashedPwd = password_hash($pwd, PASSWORD_DEFAULT);
+    mysqli_stmt_bind_param($stmt, "ssss", $name, $email, $hashedPwd, $refer);
+    mysqli_stmt_execute($stmt);
+    
+    mysqli_stmt_close($stmt);
+    header("location: ../admin-dashboard.php");
+    exit();
+}
+
+function adminlogin($conn, $email, $pwd) {
+    $uidExistsWaitlist = uidExistsWaitlist($conn, $email);
+
+    if($uidExistsWaitlist === false){
+        header("location: ../admin-login.php?error=wrongemail");
+        exit();
+    }
+
+    $pwdHashed = $uidExistsWaitlist["usersPwd"];
+    $checkPwd = password_verify($pwd, $pwdHashed);
+
+    if ($checkPwd === false){
+        header("location: ../admin-login.php?error=wrongpassword");
+        exit();
+    } else if ($checkPwd === true){
+        session_start();
+        $_SESSION["userid"] = $uidExistsWaitlist["usersID"];
+        $_SESSION["useremail"] = $uidExistsWaitlist["usersEmail"];
+        header("location: ../admin-dashboard.php");
+        exit();
+    }
+}
+
+function emptyInputAdmin($name, $email, $pwd){
+    $result;
+    if(empty($name) || empty($email) || empty($pwd)){
+        $result = true;
+    } else {
+        $result = false; 
+    }
+    return $result;
+}
+
+function emailAdminExists($conn, $email){
+    $sql = "SELECT * FROM admin WHERE  usersEmail = ?;";
+    $stmt = mysqli_stmt_init($conn);
+    if(!mysqli_stmt_prepare($stmt, $sql)){
+        header("location: ../admin-signup.php?error=failedtosignup");
+        exit();
+    }
+
+    mysqli_stmt_bind_param($stmt, "s", $email);
+    mysqli_stmt_execute($stmt);
+
+    $resultData = mysqli_stmt_get_result($stmt);
+
+    if($row = mysqli_fetch_assoc($resultData)){
+        return $row;
+
+    } else {
+        $result = false;
+        return $result;
+    }
+
+    mysqli_stmt_close($stmt);
+}
+
+function uidExistsAdmin($conn, $email){
+    $sql = "SELECT * FROM admin WHERE usersEmail = ?;";
+    $stmt = mysqli_stmt_init($conn);
+    if(!mysqli_stmt_prepare($stmt, $sql)){
+        header("location: ../admin-login.php?error=failedtosignup");
+        exit();
+    }
+
+    mysqli_stmt_bind_param($stmt, "s", $email);
+    mysqli_stmt_execute($stmt);
+
+    $resultData = mysqli_stmt_get_result($stmt);
+
+    if($row = mysqli_fetch_assoc($resultData)){
+        return $row;
+
+    } else {
+        $result = false;
+        return $result;
+    }
+
+    mysqli_stmt_close($stmt);
+}
+
+function emptyAdminInputLogin($email, $pwd){
+    $result;
+    if(empty($email) || empty($pwd)){
+        $result = true;
+    } else {
+        $result = false; 
+    }
+    return $result;
+}

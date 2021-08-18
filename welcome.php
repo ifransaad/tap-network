@@ -7,22 +7,20 @@ include 'includes/functions.inc.php';
 
 $query = "SELECT * FROM waitlist";
     if($result = $conn->query($query)){
+        $update = "UPDATE waitlist SET usersPoint = usersPoint+100 WHERE usersEmail = ? AND usersEmail IN (SELECT usersRefer FROM waitlist)";
         while ($row = $result->fetch_assoc()){
             $point = $row ["usersPoint"];
             $name = $row ["usersName"];
         }
     }
 
-$sql = "SELECT * FROM walitlist";
-        if($result = $conn->query($sql)){
-            while ($row = $result->fetch_assoc()){
-                $pointSys = $row ["usersPoint"];
-                if ($row ["usersEmail"] = $row ["usersRefer"]){
-                    $pointSys = "UPDATE waitlist SET usersPoint = usersPoint+100";
-                }
-                
-            }
-        }
+    // $sql = "SELECT * FROM walitlist";
+    // if($result = $conn->query($sql)){
+        
+    //     while ($row = $result->fetch_assoc()){
+    //         $pointSys = $row ["usersPoint"];
+    //     }
+    // }
 
 ?>
 
