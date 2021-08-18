@@ -36,6 +36,8 @@ margin: 0;
 
 .content{
     display: flex;
+    min-height: 500px;
+
 }
 .leftContent{
     flex: 4;
