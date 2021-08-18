@@ -62,17 +62,6 @@ include_once 'header.php';
                     <h2>Mokhamen Khan</h2>
                     <h3>CTO Broadridge</h3>
                 </div>
-
-<<<<<<< HEAD
-                <!--<div class="advisorsSec4TeamContainer">-->
-                <!--    <img src="aboutUs/Images/employer/Advisor/Ad_2.png" alt="">-->
-
-                <!--    <h2>DK Smith</h2>-->
-                <!--    <h3>CSO Brooklyn Innovation</h3>-->
-                <!--</div>-->
-=======
-
->>>>>>> 037690c58a7a663ce9252a48540134843c472736
                 <div class="advisorsSec4TeamContainer">
                     <img src="aboutUs/Images/employer/Advisor/Ad_3.png" alt="">
 
