@@ -183,6 +183,10 @@ position: absolute;
     position: relative;
     width: 100vw;
 }
+.addTop{
+    top: 72px;
+}
+
 /* Section 1 */
 .Sec1Container{
     display: grid;
@@ -814,6 +818,9 @@ body{
   width: 100%;
   margin: 0;
 }
+.addTop{
+    top: 66px;
+}
 .signup{
     height: 50px;
     width: 200px;
@@ -842,8 +849,8 @@ body{
 }
 
 .responsiveBarLine{
-    width: 30px;
-    height: 5px;
+    width: 25px;
+    height: 3px;
     background-color: rgb(0, 0, 0);
     border-radius: 5px;
     transition: all .5s  ;
@@ -852,19 +859,19 @@ body{
 .responsiveBarLine::before, .responsiveBarLine::after{
     content: ' ';
     position: absolute;
-    width: 30px;
-    height: 5px;
+    width: 25px;
+    height: 3px;
     background-color: rgb(0, 0, 0);
     border-radius: 5px;
     transition: all .5s  ;
 }
 
 .responsiveBarLine::before{
-    transform: translateY(-10px);
+    transform: translateY(-7px);
 }
 
 .responsiveBarLine::after{
-    transform: translateY(10px);
+    transform: translateY(7px);
 }
 
 /* Animation */
@@ -1175,6 +1182,9 @@ align-self: flex-end;
      html,body{
         font-size: 10px;
     }
+    .addTop{
+    top: 60px;
+}
     .logo{
         width: 150px;
 

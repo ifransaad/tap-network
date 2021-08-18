@@ -80,7 +80,7 @@ margin: 0;
     border-bottom: 1px solid rgba(128, 128, 128, 0.089);
     padding-bottom: 25px;
     margin-bottom: 25px;
-
+    width: 380px;
 }
 
 .rightAllContentHeading h1{
@@ -93,6 +93,7 @@ margin: 0;
     color: #8692A6;
     margin: 0;
     margin-top: 10px;
+
 }
 .form{
     display: flex;
@@ -265,8 +266,10 @@ margin: 0;
 
 
 
+
 .rightAllContentHeading{
     text-align: center;
+    width: 350px;
 }
 
 .rightAllContentHeading h1{
