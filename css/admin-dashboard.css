@@ -1,0 +1,63 @@
+*{
+    font-family: 'manrope';
+}
+body{
+    height: 100vh;
+}
+.adminDashboard_content{
+    height: 100%;
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+    align-items: stretch;
+}
+li {
+    text-decoration: none;
+    list-style: none;
+}
+.logo{
+    width: 200px;
+}
+.sidebar{
+    border-right: 1px solid rgba(128, 128, 128, 0.24);
+    padding: 0px 20px 0px 10px ;
+}
+.sidebar_List{
+    padding: 20px 5px;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+.sidebar_List li{
+    padding: 15px 10px;
+    margin: 0px 0px;
+    border-radius: 10px;
+}
+.sidebar_List li:hover{
+    background-color:#cae1ff ;
+}
+
+.waitListTable{
+    margin: 0px auto;
+    padding: 10px 30px;
+    width: 100%;
+}
+.waitlistTable_content{
+    border-radius: 10px;
+    border-collapse: collapse;
+}
+.waitlistTable_content thead{
+    text-align: left;
+    background-color: rgba(128, 128, 128, 0.26);
+}
+.waitlistTable_content th,
+.waitlistTable_content td{
+    padding: 12px 15px;
+}
+.waitlistTable_content tbody tr{
+    border-bottom: 1px solid black;
+}
+
+
+

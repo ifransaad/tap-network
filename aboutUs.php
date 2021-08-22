@@ -222,7 +222,7 @@ include_once 'header.php';
 
         }
     }
-    
 </script>
 </body>
+
 </html>
