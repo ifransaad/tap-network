@@ -20,11 +20,14 @@ li{
 .user_dashboard_allContent{
     max-width: 1200px;
     margin: 0px auto;
-    height: 100vh;
     min-height: 600px;
+    display: grid;
+    grid-template-rows: 60px auto auto;
+    grid-template-columns: 200px auto auto;
 }
 
 .navbar{
+    grid-column: 1/4;
     height: 60px;
     width: 100%;
     padding: 0px 15px;
@@ -54,6 +57,7 @@ li{
 }
 
 .sidebar{
+    grid-row: 2/4;
     width: 200px;
     padding-left: 15px;
     height: 800px;
@@ -86,7 +90,231 @@ li{
     font-weight: 600;
     color: #4C6380;
 }
+
+.sidebar_list:hover{
+    color: #2D9CDB;
+}
+
 .sidebar_list li{
     list-style: none;
     margin-left: 20px;
+}
+
+.user_dashboard_content{
+    grid-column: 2/4;
+    position: relative;
+    width: 100%;
+    display: flex;
+
+}
+.wide_panel_list{
+    flex: 0.75;
+    margin: 10px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.not_wide_panel_list{
+    flex: 0.25;
+    margin: 10px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.user_dashboard_content_panel{
+    background-color: #ffffff;
+    box-shadow: 3px 3px 15px 0px #00000025;
+    margin: 10px 0px;
+    border-radius: 10px;
+}
+
+.user_dashboard_content_panel.wide_panel{
+
+}
+
+.user_dashboard_content_panel.not_wide_panel{
+
+}
+
+#profile_panel{
+    height: 528px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.profile_panel_cover_photo{
+    width: 100%;
+    height: 40%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.profile_panel_cover_photo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.profile_panel_personal_info{
+    position: relative;
+    width: 100%;
+    height: 25%;
+    transform: translateY(-20%);
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profilePicture{
+    position: relative;
+    height: 130px;
+    width: 130px;
+}
+.profilePicture img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 200px;
+}
+
+.profile_jobPicture{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    width: 50px;
+}
+
+.personal_info_details{
+    padding: 40px 0px 0px 20px;
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.personal_info_details_upper{
+    display: flex;
+    justify-content: space-between;
+}
+#rank_bt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+
+}
+.rank_bt_writeUp h3{
+    font-size: 0.8125em;
+    font-weight: 500;
+}
+.rank_bt_writeUp h4{
+    font-size: 0.625em;
+    font-weight: 400;
+    color:#AFAFBD ;
+}
+.personal_info_details_upper button{
+    background-color: inherit;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 150px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+
+.personal_info_details_lower{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.personal_info_details_lower_left span{
+    padding: 0px 5px;
+
+}
+.personal_info_details_lower_left_name{
+    font-size: 1.25em;
+    font-weight: 600;
+    border-right: 1px solid black;
+
+}
+.personal_info_details_lower_left_job
+{
+    font-size: 1em;
+    font-weight: 400;
+    border-right: 1px solid black;
+
+}
+.personal_info_details_lower_left_connections{
+        font-size: 1em;
+    font-weight: 400;
+
+}
+
+.personal_info_details_lower_right a{
+    font-size: 1em;
+}
+.personal_info_details_lower_right img{
+    transform: translateY(25%);
+}
+
+.profile_panel_AboutMe{
+    width: 100%;
+    height: 35%;
+    padding: 20px;
+}
+
+.profile_panel_AboutMe_writeUp{
+    position: relative;
+    padding: 20px;
+    background-color: #D7E7FC;
+    border-radius: 10px;
+}
+.profile_panel_AboutMe_writeUp img{
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+.profile_panel_AboutMe_writeUp h2{
+    font-size: 1.125em;
+    margin-bottom: 10px;
+}
+.profile_panel_AboutMe_writeUp p{
+    font-size: 0.875em;
+}
+
+
+
+
+
+
+
+
+#objW2{
+    height: 280px;
+}
+#objW3{
+    height: 190px;
+}
+#objW4{
+    height: 190px;
+}
+#objW5{
+    height: 190px;
+}
+
+
+
+
+#objNW1{
+    height: 500px;
+}
+#objNW2{
+    height: 500px;
+}
+#objNW3{
+    height: 500px;
 }
