@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
     <link rel="stylesheet" href="../css/user/dashboard.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
 </head>
 <body>
         <div class="user_dashboard_allContent">
@@ -57,7 +59,11 @@
                         </div>
                         <div class="profile_panel_personal_info">
                             <div class="profilePicture">
-                                <img src="icons/testImages/Pink Bakery and Pastry Shop Logo 1.png" alt="">
+                                    <div id="profile-container">
+                                        <img src="icons/Profile Icons/pngfind.com-default-image-png-6764065.png" id="profileImage" alt="">
+                                    </div>
+                                    <input id="imageUpload" type="file" name="profile_photo" placeholder="Photo" required="" capture>
+
                                 <div class="profile_jobPicture">
                                     <img src="icons/testImages/Amazon.png" alt="">
                                 </div>
@@ -132,6 +138,6 @@
             </div>
 
         </div>
-        
+        <script src="../js/dashboard_profile_picture.js"></script>
 </body>
 </html>
