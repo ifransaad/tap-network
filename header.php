@@ -32,20 +32,20 @@
         <div class="navbar ">
             <div class="navbarContent">
                 <div class="">
-                    <a href="index.php"><img class="logo" src="icons/Logolatest.svg"></a>
+                    <a href="index.php"><img class="logo" src="icons/tapWorking.svg"></a>
                 </div>
 
                 <div class="nav hidden ">
-                    <li><a class="list" href="index.php">Home</a></li>
+                    <!-- <li><a class="list" href="index.php">Home</a></li> -->
                     <!-- <li><a class="list" href="#">Products</a></li> -->
                     <li><a class="list" href="aboutUs.php">About Us</a></li>
-                    <li><a class="list" href="https://learn.tapnetwork.app/">Blog</a></li>
+                    <li><a class="list" href="https://learn.tapnetwork.app/">Learn</a></li>
 
                 </div>
 
                 <div class=" hidden ">
-                    <button onclick="document.location='waitlistLogin.php'" class="login" style="color: rgba(47, 128, 237, 1);">Login</button>
-                    <button onclick="document.location='waitlistRegister.php' " class="navSignup"> Get Your Free Card</button>
+                    <button onclick="document.location='waitlistLogin.php'" class="login">Login</button>
+                    <button onclick="document.location='waitlistRegister.php' " class="navSignup"> Claim a free card!</button>
                 </div>
 
                 <div class="responsiveBar">
@@ -58,10 +58,10 @@
         </div>
 
         <div class="navBarResponsive ">
-            <li><a class="list" href="index.php" style=" color:rgba(47, 128, 237, 1) ;">Home</a></li>
+            <!-- <li><a class="list" href="index.php" style=" color:rgba(47, 128, 237, 1) ;">Home</a></li> -->
             <!-- <li><a class="list" href="#">Products</a></li> -->
             <li><a class="list" href="aboutUs.php">About Us</a></li>
-            <li><a class="list" href="https://learn.tapnetwork.app/">Blog</a></li>
+            <li><a class="list" href="https://learn.tapnetwork.app/">Learn</a></li>
             <button onclick="document.location='waitlistLogin.php'" class="login" style="color: rgba(47, 128, 237, 1);">Login</button>
             <button onclick="document.location='waitlistRegister.php' " class="navSignup"> Get your free card!</button>
 

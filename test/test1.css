@@ -26,8 +26,7 @@
     height: 100%;
     width: fit-content;
     display: flex;
-    transform: translateX(800px);
-
+    transform: translateX(-800px);
 }
 
 .float_info_window_box{
@@ -84,6 +83,8 @@ input[type=text]{
     grid-column: 1/6 ;
     background-color: #c4c4c44d;
     border: none;
+    outline: none;
+    padding: 40px;
     border-radius: 30px;
     margin-top: 15px;
     font-size: 20px;
@@ -98,7 +99,7 @@ input[type=text]{
     display: flex;
     justify-content: center;
 }
-#saveChanges{
+.float_info_window_button{
     height: 50px;
     width: 236px;
     border-radius: 8px;
@@ -109,4 +110,30 @@ input[type=text]{
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
+}
+
+.float_info_window_sec2_content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.float_info_window_sec2_content_dragNdrop_outer{
+    flex: 0.3;
+    border-bottom: 1px solid black;
+    position: relative;
+    padding: 20px;
+}
+.float_info_window_sec2_content_dragNdrop_inner{
+    background-color: rgba(196, 196, 196, 0.25);
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    font-size: 21px;
+    
+}
+
+.float_info_window_sec2_content_images{
+    flex: 0.7;
 }
