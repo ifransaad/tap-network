@@ -151,6 +151,7 @@ function emailExists($conn, $email){
 
 function createUserWaitlist($conn, $name, $email, $pwd, $refer){
     $sql = "INSERT INTO waitlist (usersName, usersEmail, usersPwd, usersRefer) VALUES (?,?,?,?);";
+    
     mysqli_query($conn, $sql);
     $stmt = mysqli_stmt_init($conn);
     if(!mysqli_stmt_prepare($stmt, $sql)){
@@ -160,8 +161,13 @@ function createUserWaitlist($conn, $name, $email, $pwd, $refer){
     $hashedPwd = password_hash($pwd, PASSWORD_DEFAULT);
     mysqli_stmt_bind_param($stmt, "ssss", $name, $email, $hashedPwd, $refer);
     mysqli_stmt_execute($stmt);
-    
     mysqli_stmt_close($stmt);
+    $query = "UPDATE waitlist SET usersPoint = usersPoint+100 WHERE usersRefer = $email";
+    mysqli_query($conn, $query);
+    $querystmt = mysqli_stmt_init($conn);
+    mysqli_stmt_bind_param($querystmt, "ssss", $name, $email, $hashedPwd, $refer);
+    mysqli_stmt_execute($querystmt);
+    mysqli_stmt_close($querystmt);
     header("location: ../thankYou.php?email=".htmlspecialchars($_POST['email'] ?? '')."&name=".htmlspecialchars($_POST['name'] ?? '')."");
     exit();
 }

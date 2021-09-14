@@ -7,6 +7,7 @@ if(isset($_POST["submit"])){
     $pwdRepeat = $_POST["pwdrepeat"];
     $refer = $_POST["refer"];
 
+    
     require_once 'dbh.inc.php';
     require_once 'functions.inc.php';
 
