@@ -824,6 +824,10 @@ position: absolute;
     padding: 50px 0px;
     justify-content: center;
     align-items: center;
+    background-image: url(" ../icons/sec6 BGImage.svg ");
+    background-position: 50% 110%;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 .section6Container_content{
     position: relative;
@@ -846,7 +850,73 @@ position: absolute;
 
 
 /* Footer Start */
+.section_footer{
+    width: 100%;
+
+    position: relative;
+    background: #0B0D17;
+
+
+}
 .footer{
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 30px 0px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.footer_content{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer_content_list{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+.footer_content_list h3{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+.footer_content_list a{
+    color: #9D9FA6;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 10px 0px;
+}
+.footer_copyright{
+    text-align: right;
+    margin: 20px 0px;
+}
+.footer_copyright p{
+    color: #9D9FA6;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+
+.indexDecor img{
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    z-index: +2;
+}
+
+
+
+/* Footer End */
+/* .footer{
      padding: 3vh 0vw;
 
     height: auto;
@@ -897,17 +967,19 @@ position: absolute;
     height: 50px;
     margin: 5px;
     border: 15px solid rgba(255, 255, 255, 0.041);
-    border-radius: 1000px;
-}
+    border-radius: 1000px; 
+} 
+*/
+
 /* Footer mini icons animation  */
-.footerCopyright-Right img:hover{
+/* .footerCopyright-Right img:hover{
     box-shadow: 0px 5px 6px -6px rgb(255, 255, 255);
     cursor: pointer;
 
 }
 .footerContact li:hover{
     cursor: pointer;
-}
+} */
 
 /* animation END */
 /* sdfsdagasdfgdfsag
