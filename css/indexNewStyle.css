@@ -34,7 +34,6 @@ Html,body{
     background-color: white;
     width: 100vw;
     height: auto;
-    transition: transform 5s;
 
 }
 .sticky {
@@ -42,7 +41,6 @@ Html,body{
   top: 0;
   z-index: +10;
   border-bottom: rgba(128, 128, 128, 0.199) 1px solid;
-
 }
 
 .navbarContent{

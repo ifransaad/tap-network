@@ -329,19 +329,13 @@ include_once 'header.php';
     ?>
 </div>
 <script>
-    window.onscroll = function() {
-        myFunction();
-    };
-
-
+    var classChange = false;
     var header = document.getElementById("myHeader");
     var container = document.getElementById('wholeContainer');
     var sticky = header.offsetTop;
 
 
-
-    function myFunction() {
-
+    window.addEventListener("scroll", () => {
         if (window.pageYOffset > sticky) {
             header.classList.add("sticky");
             container.classList.add("addTop")
@@ -349,6 +343,15 @@ include_once 'header.php';
             header.classList.remove("sticky");
             container.classList.remove("addTop");
         }
+
+    })
+
+
+
+
+    function myFunction() {
+        console.log(classChange);
+
     }
 </script>
 
