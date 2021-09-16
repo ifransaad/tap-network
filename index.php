@@ -15,18 +15,11 @@ include_once 'header.php';
             <br>
             <h6> Network more efficiently. Join us now and stay up to date on our launch.
             </h6>
-            <!-- <button onclick="document.location='signUp/signUpPg1.html' " class="signup" style="transform: translate(150px, 210px);">Get your free card!</button> -->
             <button onclick="document.location='waitlistRegister.php' " class="signup">Get Started Free</button>
 
         </div>
         <div class="animationGrid">
             <img src="icons/animationGridPhoto.png" alt="">
-            <!-- <div class="animationGridBlueCircle">
-                <img src="icons/Tapnetwork phone animation/final Draft.png" alt="">
-
-            </div> -->
-
-
         </div>
 
 
@@ -192,37 +185,7 @@ include_once 'header.php';
     <!-- Section 2 end -->
 
 
-    <!-- Section 3 -->
-    <!-- <div class="section3">
-        <div class="Sec3Container">
-            <h1 class="sec3writeup anim-typewriter">Networking Made
-                Fun
-            </h1>
 
-            <div class="innerContainer">
-                <div class="innerContainer1" style="background-color: white;">
-                    <img src="icons/milestones and badges.png">
-                    <h2>Milestones & Badges</h2>
-                    <p style="font-weight: 500;">Receive badges for every networking <br> milestone you hit!</p>
-
-                </div>
-                <div class="innerContainer1" style="background-color: white;">
-
-                    <img src="icons/Friendly competition.png" alt="" srcset="">
-                    <h2>Friendly Competition</h2>
-                    <p style="font-weight: 500;">Compete with your friends and see <br> how they are networking!
-                    </p>
-
-                </div>
-                <div class="innerContainer1" style="background-color: white;">
-                    <img src="icons/gifts and rewards.png">
-                    <h2>Gifts & Rewards</h2>
-                    <p style="font-weight: 500;">Get gifts and rewards for doing what <br> you already do!</p>
-                </div>
-            </div>
-        </div>
-
-    </div> -->
 
 
     <!--Sec3 End-->
@@ -244,29 +207,7 @@ include_once 'header.php';
 
     <!-- Section 4 End -->
 
-    <!--Sec5 Start-->
-    <!-- <div class="section5_1">
-        <div class="sec5upper_grid">
-            <div class="sec5writeup">
-                <h1>Easy Integrations with 170+ tools</h1>
-                <h3>Connect our platform with your favourite tools that you use daily and keep things on track.</h3>
-            </div>
-            <div class="sec5circle">
-                <div class="sec5logoline">
-                    <img src="icons/CompanyLogo/intercom-2.svg" alt="intercom">
-                    <img src="icons/CompanyLogo/Slack_logo.svg" alt="slack">
-                    <img src="icons/CompanyLogo/surveymonkey-icon.svg" alt="surveymonkey">
-                    <img src="icons/CompanyLogo/dropbox_2993696.svg" alt="dropbox">
-                </div>
-                <div class="sec5logoline">
-                    <img src="icons/CompanyLogo/paypal-seeklogo.com.svg" alt="paypal">
-                    <img src="icons/CompanyLogo/mailchimp_4691307.svg" alt="mailchimp">
-                    <img src="icons/CompanyLogo/salesforce-2.svg" alt="salesforce">
-                </div>
-            </div>
-        </div>
 
-    </div> -->
 
     <div class="section5_2">
         <div class="sec5_2Content">
@@ -277,25 +218,7 @@ include_once 'header.php';
             <h1 id="counter" class="counter-count">0</h1>
             <h3>trees are cut down each year to produce paper business cards.</h3>
         </div>
-        <!-- <div class="sec5lower_grid">
-            <div class="sec5lower_gridHeading">
-                <h1>Save Mother Earth</h1>
-            </div>
-            <div class="sec5lower_gridImage hidden">
-                <img src="icons/save_mother_earth.png" alt="" srcset="">
-            </div>
-            <div class="sec5lower_gridWriteUp">
-                <div class="sec5lower_gridWriteUpTop">
-                    <h1 id="counter" class="counter-count">0</h1>
-                    <h3>trees are cut down because of paper <br> business cards</h3>
-                </div>
-                <div class="sec5lower_gridWriteUpBottom">
-                    <h1>88%</h1>
-                    <h3>of all paper business cards are thrown <br> out in the first week</h3>
-                </div>
-
-            </div>
-        </div> -->
+       
     </div>
 
     <!--Sec5 End-->
@@ -328,32 +251,7 @@ include_once 'header.php';
 
     ?>
 </div>
-<script>
-    var classChange = false;
-    var header = document.getElementById("myHeader");
-    var container = document.getElementById('wholeContainer');
-    var sticky = header.offsetTop;
 
-
-    window.addEventListener("scroll", () => {
-        if (window.pageYOffset > sticky) {
-            header.classList.add("sticky");
-            container.classList.add("addTop")
-        } else {
-            header.classList.remove("sticky");
-            container.classList.remove("addTop");
-        }
-
-    })
-
-
-
-
-    function myFunction() {
-        console.log(classChange);
-
-    }
-</script>
 
 <script src="js/sec2Animation.js"></script>
 <script src="js/navBarRes.js"></script>
@@ -361,7 +259,7 @@ include_once 'header.php';
 <script src="js/sec2AnimationResponsiveSlider.js"></script>
 
 
-<!--<script src="js/windowScroll/windowScrollIndex.js"></script>-->
+<script src="js/windowScroll.js"></script>
 <script src="js/sec5_2Animation.js"></script>
 
 </body>

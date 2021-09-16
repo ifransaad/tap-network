@@ -200,29 +200,8 @@ include_once 'header.php';
 
 </div>
 
-<script>
-    window.onscroll = function() {
-        myFunction()
-    };
+<script src="js/windowScroll.js"></script>
 
-    var header = document.getElementById("myHeader");
-    var abContainer = document.getElementById('AbContainer');
-
-
-
-    var sticky = header.offsetTop;
-
-    function myFunction() {
-        if (window.pageYOffset > sticky) {
-            header.classList.add("sticky");
-            abContainer.classList.add("addTop");
-        } else {
-            header.classList.remove("sticky");
-            abContainer.classList.remove("addTop");
-
-        }
-    }
-</script>
 </body>
 
 </html>
