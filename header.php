@@ -31,19 +31,23 @@
     <div class="wholeNavbar" id="myHeader">
         <div class="navbar ">
             <div class="navbarContent">
-                <div class="">
-                    <a href="index.php"><img class="logo" src="icons/tapWorking.svg"></a>
+                <div class="navbarContent_left">
+                    <div class="logoBox">
+                        <a href="index.php"><img class="logo" src="icons/tapWorking.svg"></a>
+                    </div>
+
+                    <div class="nav hidden ">
+                        <!-- <li><a class="list" href="index.php">Home</a></li> -->
+                        <!-- <li><a class="list" href="#">Products</a></li> -->
+                        <li><a class="list" href="aboutUs.php">About Us</a></li>
+                        <li><a class="list" href="https://learn.tapnetwork.app/">Learn</a></li>
+
+                    </div>
+
                 </div>
 
-                <div class="nav hidden ">
-                    <!-- <li><a class="list" href="index.php">Home</a></li> -->
-                    <!-- <li><a class="list" href="#">Products</a></li> -->
-                    <li><a class="list" href="aboutUs.php">About Us</a></li>
-                    <li><a class="list" href="https://learn.tapnetwork.app/">Learn</a></li>
 
-                </div>
-
-                <div class=" hidden ">
+                <div class="loginBox hidden ">
                     <button onclick="document.location='waitlistLogin.php'" class="login">Login</button>
                     <button onclick="document.location='waitlistRegister.php' " class="navSignup"> Claim a free card!</button>
                 </div>

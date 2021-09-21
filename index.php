@@ -19,7 +19,9 @@ include_once 'header.php';
 
         </div>
         <div class="animationGrid">
-            <img src="icons/animationGridPhoto.png" alt="">
+            <div class="gradEclipse"></div>
+            <div class="gradPlanet"></div>
+            <img src="icons/animationGridPhotoNoGrad.png" alt="">
         </div>
 
 
@@ -27,7 +29,14 @@ include_once 'header.php';
     <!-- Section 1 End -->
     <!-- Section 1_2-->
     <div class="section1_2">
+
         <div class="section1_2Container">
+            <div class="indexDecor">
+                <img style="transform: translate( 250px ,75px ); z-index: 0" src="icons/index Decor/image 12IndexDecor.svg" alt="">
+                <img style="transform: translate(  -550px ,100px   );" src="icons/index Decor/image 22IndexDecor.svg" alt="">
+                <img style="transform: translate(  300px ,400px   );" src="icons/index Decor/image 30IndexDecor.svg" alt="">
+
+            </div>
             <div class="section1_2Container_header">
                 <h3>Connect with just a tap</h3>
             </div>
@@ -54,11 +63,20 @@ include_once 'header.php';
                     <p>TapWorking observes networking trends across the board and identifies your specific needs. The Tap intelligent assistent will curate a personalized networking journey for you while considering your busy schedule.</p>
                 </div>
                 <div class="section1_3Container_content_icons">
-                    <img src="icons/sec1_3Icon 1.svg" alt="">
-                    <img src="icons/sec1_3Icon 2.svg" alt="">
-                    <img src="icons/sec1_3Icon 3.svg" alt="">
+                    <div class="section1_3Container_content_icons_box">
+                        <img src="icons/sec1_3Icon 3.svg" alt="">
+                        <p>Identify your networking needs</p>
+                    </div>
 
+                    <div class="section1_3Container_content_icons_box">
+                        <img src="icons/sec1_3Icon 2.svg" alt="">
+                        <p>Curate a personalized networking strategy</p>
+                    </div>
 
+                    <div class="section1_3Container_content_icons_box">
+                        <img src="icons/sec1_3Icon 1.svg" alt="">
+                        <p>Fit it into your schedule to make it happen</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -86,10 +104,10 @@ include_once 'header.php';
             <div class="sec2image">
                 <div class="displayBoxImage">
                     <div class="displayBoxImageAgain">
-                        <img class="current-image" src="icons/PhoneSec2/AddContactPhone.svg" alt="">
-                        <img class=" vanish-image  " src="icons/PhoneSec2/ShowOffPhone.svg" alt="">
-                        <img class=" vanish-image " src="icons/PhoneSec2/CustomWidgPhone.svg" alt="">
-                        <img class=" vanish-image " src="icons/PhoneSec2/Personalize Phone New Version.png" alt="">
+                        <img class="current-image" src="icons/PhoneSec2/AddContactPhone(white).png" alt="">
+                        <img class=" vanish-image  " src="icons/PhoneSec2/ShowOffPhone(white).png" alt="">
+                        <img class=" vanish-image " src="icons/PhoneSec2/CustomWidgPhone(white).png" alt="">
+                        <img class=" vanish-image " src="icons/PhoneSec2/PersonalizePhone(white).png" alt="">
 
                     </div>
 
@@ -213,12 +231,20 @@ include_once 'header.php';
         <div class="sec5_2Content">
             <h1>Help the environment</h1>
             <p>Our Tap cards are made of 100% recycled materials so we can network better and help the environment at the same time.</p>
-            <h1>88% </h1>
-            <h3>of all paper business cards are trown out in the first week of receiving them. </h3>
-            <h1 id="counter" class="counter-count">0</h1>
-            <h3>trees are cut down each year to produce paper business cards.</h3>
+            <div class="sec5_2Content_middle">
+                <h2 id="counter" class="counter-count">0</h2>
+                <p>trees are cut down each year to produce paper business cards.</p>
+            </div>
+
+            <div class="sec5_2Content_bottom">
+                <h2>88% </h2>
+                <p>of all paper business cards are thrown out in the first week of receiving them. </p>
+
+            </div>
+
+
         </div>
-       
+
     </div>
 
     <!--Sec5 End-->
@@ -233,24 +259,39 @@ include_once 'header.php';
                 <div class="section1_3Container_content_writeUp">
                     <p>The first 1000 members to join us will receive a free Tap card and will be given acccess to all our premium features for a limited time. Get on our waitlist to secure your spot! </p>
                 </div>
-                <div class="section6Container_content_icons">
-                    <img src="icons/sec6Icon1.svg" alt="">
-                    <img src="icons/sec6Icon2.svg" alt="">
-                    <img src="icons/sec6Icon3.svg" alt="">
-                </div>
-                <button onclick="document.location='waitlistRegister.php' " class="signup">Get Started Free</button>
+                <div class="section1_3Container_content_icons section6Container_content_icons ">
+                    <div class="section1_3Container_content_icons_box">
+                        <img src="icons/sec6Icon1.svg" alt="">
+                        <p>Register and create your profile</p>
+                    </div>
 
+                    <div class="section1_3Container_content_icons_box">
+                        <img src="icons/sec6Icon2.svg" alt="">
+                        <p>Invite friends to receive a free Tap card</p>
+                    </div>
+
+                    <div class="section1_3Container_content_icons_box">
+                        <img src="icons/sec6Icon3.svg" alt="">
+                        <p>We will email you updates on our launch</p>
+                    </div>
+                </div>
 
             </div>
+            <button onclick="document.location='waitlistRegister.php' " class="signup">Get Started Free</button>
+
+
         </div>
     </div>
-    <!-- Sec6 End -->
     <?php
 
     include_once 'footer.php';
 
     ?>
 </div>
+
+</div>
+<!-- Sec6 End -->
+
 
 
 <script src="js/sec2Animation.js"></script>
