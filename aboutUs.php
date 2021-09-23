@@ -9,16 +9,11 @@ include_once 'header.php';
         <div class="LearnMoreSec1">
             <div class="Sec1WriteUp">
                 <h3>ABOUT US</h3>
-                <h1>Learn more about our mission </h1>
-                <h1 style="margin-bottom: 40px;"> and who we are</h1>
-
+                <h1>Learn more about our mission
+                    and who we are</h1>
             </div>
-            <div class="Sec1Images hidden">
-                <img src="aboutUs/Images/sec1left.png" alt="">
-                <img src="aboutUs/Images/sec1right.png" alt="">
+            <img src=" aboutUs/Images/AboutUsSec1BG.svg " alt="">
 
-
-            </div>
         </div>
 
     </div>
@@ -42,7 +37,7 @@ include_once 'header.php';
             </div>
             <div class="ourVisionSec3WriteUp">
                 <h1>Our vision for the future</h1>
-                <p>We want to change the way people network and at the same time save trees. </p>
+                <p>We want to offer individuals and businesses a simple and engaging way to network. Networking should not be a chore. </p>
             </div>
 
         </div>
