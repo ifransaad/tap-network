@@ -20,7 +20,6 @@ Html,body{
     height: auto;
     position: fixed;
     z-index: 10;
-
 }
 .sticky {
       border-bottom: rgba(128, 128, 128, 0.199) 1px solid;
@@ -733,6 +732,11 @@ sdag
   * {
   box-sizing: border-box;
 }
+.hidden{
+  visibility: hidden;
+  position: absolute;
+  transform: scale(0);
+}
 
 body{
   width: 100vw;
@@ -761,7 +765,6 @@ body{
 }
 
 .logo{
-    padding: 15px 15px 15px 0px;
     width: 150px;
 }
 
@@ -785,15 +788,11 @@ body{
   width: 100%;
   margin: 0;
 }
-.addTop{
-    top: 66px;
-}
 .signup{
-    height: 50px;
-    width: 200px;
-    background-color: rgba(47, 128, 237, 1);
-    border-radius: 6px;
-    font-size: 16px;
+    height: 25px;
+    width: 127px;
+    border-radius: 4px;
+    font-size: 10px;
  
 }
 
@@ -888,50 +887,94 @@ body{
 
 .Sec1Container{
     position: relative;
-    padding: 50px 0px;
+    padding: 50px 10px;
     width: 100%;
-    height: 900px;
+    height: 800px;
     background-color: rgba(255, 255, 255, 1);
     display: flex;
     flex-direction: column;
-    justify-content:flex-end;
 
 }
 
 
 
 .writeUps{
-    padding: 5vh 20px;
+    padding: 20px 0px;
     text-align: center;
 }
 .writeUps p{
     text-align: center;
     margin: 0;
-    color: rgba(24, 25, 31, 1);
-    font-size: 28px;
+    font-size: 30px;
     
 }
 
 .writeUps h6{
     width: 100%;
     margin: 20px  0px;
-    color: rgba(24, 25, 31, 1);
-    font-size: 13px;
+    font-size: 14px;
 
 }
 
-.animationGrid {
-    justify-content: center;
-}
-.animationGridBlueCircle{
-    position: relative;
-    height: 350px;
-    width: 350px;
-
+.animationGrid{
+    padding: 20px 0px;
 }
 
 
 /* Sec1 End */
+.section1_2{
+    padding: 50px 10px;
+}
+.section1_2Container_header{
+    font-size: 24px;
+}
+
+.section1_2Container_content img{
+    height: 280px;
+}
+
+.section1_2Container_footer{
+        font-size: 14px;
+}
+.section1_3Container_content_icons{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*  Sec1_2 */
+
+.section1_3{
+    padding: 50px 10px;
+}
+
+.section1_3Container{
+    height: auto;
+}
+.section1_3Container_header{
+    font-size: 24px;
+    text-align: center;
+}
+.section1_3Container_content_image {
+    margin: 20px 0px;
+}
+.section1_3Container_content_image img{
+    width: 160px;
+}
+.section1_3Container_content_writeUp{
+    font-size: 14px;
+}
+
+
+/* Sec 1_3 */
+.section2{
+    padding: 40px 10px;
+}
+.section2Pre_container h2{
+    font-size: 24px;
+}
+.section2Pre_container p{
+    font-size: 14px;
+}
 
 .sec2ResponsiveContainer{
     height: 100vh;
@@ -972,119 +1015,58 @@ body{
     z-index: 2;
     text-align: center;
 }
-.sec4Writeup p{
+.sec4Writeup h3{
     font-size: 24px;
 }
 
-.sec4Writeup h6{
+.sec4Writeup p{
     width: auto;
-    font-size: 18px;
+    font-size: 14px;
 }
 
-.sec4backgroundColor{
-    height: 0px;
-    width: 0px;
-}
 
 .sec4image{
-    position: relative;
-    height: fit-content;
-    width: fit-content;
-    margin: auto;
-    margin-bottom: 0;
-
+    margin-top: 50px;
 }
 .phoneDashboard {
     height: auto;
-    image-rendering: -moz-crisp-edges;
 }
 
 /* Sec4End */
-.Sec5Container{
-}
-.sec5upper_grid{
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    height: auto;
-}
 
-.sec5writeup{
-    display: inline-block;
-    height: auto;
-    text-align: center;
+.section5_2{
+    background-image: none;
+    background-color: #F1F7FF;
+}
+.sec5_2Content{
+    background-size: auto;
+    background-position:50% 100% ;
+        padding: 40px 10px;
+height: 650px;
+}
+.sec5_2Content h1{
+    font-size: 24px;
+}
+.sec5_2Content p{
+    font-size: 14px;
+    width: 100%;
+}   
+.sec5_2Content h2{
+    font-size: 36px;
+}
+.sec5_2Content_bottom{
     width: 100%;
 }
-.sec5writeup h1{
-    margin: 0px 0px;
-    font-size: 24px;
-
+.section6Container_content_icons div{
+    height: auto;
 }
-.sec5writeup h3{
-    margin: 15px 0px;
-    font-size: 18px;
+.section6Container_content_icons img{
+    height: 60px;
 }
-
-.sec5circle{
-    position:relative;
-    height: 160px;
-    width: 350px;
+.section6Container_content_icons p{
+    font-size: 12px;
 }
 
-.sec5logoline img{
-    margin: 10px;
-    height: 48px;
-    transition: .5s ease;
-    border-radius: 50px;
-}
-
-.sec5lower_grid {
-padding: 5vh 20px;
-display: flex;
-flex-direction: column;
-}
-
-.sec5lower_grid > div{
-    margin: 30px 0px;
-}
-
-
-.sec5lower_gridHeading h1{
-    font-weight:bolder;
-    font-size: 28px;
-    margin: 0px;
-}
-
-.sec5lower_gridImage img{
-    position: relative;
-
- }
-
-.sec5lower_gridWriteUp h3{
-    margin: 0;
-    font-size: 15px;
-
-}
-.sec5lower_gridWriteUp h1{
-    margin: 10px 0px;
-    font-size: 24px;
-    font-weight: bolder;
-}
-
-.sec5lower_grid::after{
-    content: "";
-    background: url( ../icons/save_mother_earth.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    opacity: .2;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;   
-}
 /* Sec5End */
 
 .footer{
@@ -1130,11 +1112,7 @@ align-self: flex-end;
     height: 40px;
 }
 
-.hidden{
-  visibility: hidden;
-  position: absolute;
-  transform: scale(0);
-}
+
 
 
 

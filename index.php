@@ -31,7 +31,7 @@ include_once 'header.php';
     <div class="section1_2">
 
         <div class="section1_2Container">
-            <div class="indexDecor">
+            <div class="indexDecor hidden">
                 <img style="transform: translate( 250px ,75px ); z-index: 0" src="icons/index Decor/image 12IndexDecor.svg" alt="">
                 <img style="transform: translate(  -550px ,100px   );" src="icons/index Decor/image 22IndexDecor.svg" alt="">
                 <img style="transform: translate(  300px ,400px   );" src="icons/index Decor/image 30IndexDecor.svg" alt="">
@@ -152,13 +152,13 @@ include_once 'header.php';
         </div>
         <div class="sec2ResponsiveContainer responsiveHidden">
             <div class="slider-container">
-                <div class="slide active"> <img src="icons/PhoneSec2/AddContactPhone.png" alt="" />
+                <div class="slide active"> <img src="icons/PhoneSec2/AddContactPhone(white).png" alt="" />
                 </div>
-                <div class="slide "> <img src="icons/PhoneSec2/ShowOffPhone.png" alt="" />
+                <div class="slide "> <img src="icons/PhoneSec2/ShowOffPhone(white).png" alt="" />
                 </div>
-                <div class="slide "> <img src="icons/PhoneSec2/CustomWidgPhone.png" alt="" />
+                <div class="slide "> <img src="icons/PhoneSec2/CustomWidgPhone(white).png" alt="" />
                 </div>
-                <div class="slide "> <img src="icons/PhoneSec2/Personalize Phone New Version.png" alt="" />
+                <div class="slide "> <img src="icons/PhoneSec2/PersonalizePhone(white).png" alt="" />
                 </div>
 
 
@@ -217,7 +217,7 @@ include_once 'header.php';
             </div>
             <div class="sec4image">
                 <img class="desktopDashboard hidden" src="icons/section4 Dashboard.png">
-                <img class="phoneDashboard responsiveHidden" src="icons/Phone Dashboard.svg" alt="">
+                <img class="phoneDashboard responsiveHidden" src="icons/Phone Dashboard(white).png" alt="">
             </div>
         </div>
 
