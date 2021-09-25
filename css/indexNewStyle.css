@@ -58,10 +58,11 @@ Html,body{
     padding-right: 1rem;
 }
 .logoBox{
-    width: 300px;
+    position: relative;
+    width: 200px;
 }
 .logo{
-    width: 200px;
+    width: 100%;
 }
 
 
@@ -245,7 +246,7 @@ position: absolute;
     margin: 0px auto;
     display: flex;
     flex-direction: column;
-    padding: 50px 0px;
+    padding: 50px 40px;
     justify-content: center;
     align-items: center;
 }
@@ -283,13 +284,13 @@ position: absolute;
 }
 .section1_3Container{
     position: relative;
-    height: 930px;
+    height: 900px;
     box-sizing: border-box;
     max-width: 1200px;
     margin: 0px auto;
     display: flex;
     flex-direction: column;
-    padding: 50px 0px;
+    padding: 50px 40px;
     justify-content: center;
     align-items: center;
 }
@@ -347,7 +348,7 @@ position: absolute;
 
 /* section 2 start */
 .section2{
-    padding: 50px 0px;
+    padding: 50px 40px;
     width: 100%;
     height: auto;
     background-image:
@@ -451,7 +452,7 @@ position: absolute;
 
 
 .sec2writeUp{
-    flex: 3;
+    flex: 2;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -508,7 +509,7 @@ position: absolute;
     margin: 0px auto;
     display: flex;
     flex-direction: column;
-    padding: 50px 0px 0px 0px;
+    padding: 50px 40px 0px 40px;
     align-items: center;
 }
 
@@ -555,7 +556,7 @@ position: absolute;
     margin: 0px auto;
     display: flex;
     flex-direction: column;
-    padding: 50px 0px;
+    padding: 50px 40px;
     align-items: center;
     background-image: url(" ../icons/sec5 BGimage(blue).svg ");
     background-position: 50% 140%;
@@ -615,7 +616,7 @@ position: absolute;
     margin: 0px auto;
     display: flex;
     flex-direction: column;
-    padding: 100px 0px;
+    padding: 100px 40px;
     justify-content: center;
     align-items: center;
 
@@ -648,7 +649,7 @@ position: absolute;
 .footer{
     max-width: 1200px;
     margin: 0px auto;
-    padding: 30px 0px;
+    padding: 30px 40px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -764,7 +765,7 @@ body{
     font-size: 1.875rem;
 }
 
-.logo{
+.logoBox{
     width: 150px;
 }
 
@@ -887,9 +888,7 @@ body{
 
 .Sec1Container{
     position: relative;
-    padding: 50px 10px;
     width: 100%;
-    height: 800px;
     background-color: rgba(255, 255, 255, 1);
     display: flex;
     flex-direction: column;
@@ -922,11 +921,9 @@ body{
 
 
 /* Sec1 End */
-.section1_2{
-    padding: 50px 10px;
-}
+
 .section1_2Container_header{
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .section1_2Container_content img{
@@ -943,15 +940,12 @@ body{
 
 /*  Sec1_2 */
 
-.section1_3{
-    padding: 50px 10px;
-}
 
 .section1_3Container{
     height: auto;
 }
 .section1_3Container_header{
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
 }
 .section1_3Container_content_image {
@@ -961,13 +955,19 @@ body{
     width: 160px;
 }
 .section1_3Container_content_writeUp{
-    font-size: 14px;
+    font-size: 12px;
 }
 
 
 /* Sec 1_3 */
+
+
 .section2{
-    padding: 40px 10px;
+    padding: 40px 0px;
+    overflow: hidden;
+}
+.section2Pre_container{
+    padding: 0px 20px;
 }
 .section2Pre_container h2{
     font-size: 24px;
@@ -980,31 +980,10 @@ body{
     height: 100vh;
 }
 
-.sec3writeup{
-    font-size: 24px;
-    margin-bottom: 0;
+/* sec2 */
+.Sec4Container {
+    height: 700px;
 }
-.innerContainer{
-    flex-direction: column;
-}
-.innerContainer1{
-    margin: 25px 0px;
-}
-.innerContainer1 h2{
-    font-size: 22px;
-}
-.innerContainer1 p{
-    font-size: 15px;
-}
-/* sec3End */
-
-.Sec4Container{
-    padding: 50px 0px;
-    display: flex;
-    flex-direction: column;
-    height: 800px;
-}
-
 .sec4Writeup{
     width: 90%;
     height: auto;
@@ -1016,12 +995,12 @@ body{
     text-align: center;
 }
 .sec4Writeup h3{
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .sec4Writeup p{
     width: auto;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 
@@ -1040,8 +1019,7 @@ body{
 }
 .sec5_2Content{
     background-size: auto;
-    background-position:50% 100% ;
-        padding: 40px 10px;
+    background-position:50% 160% ;
 height: 650px;
 }
 .sec5_2Content h1{
@@ -1069,81 +1047,35 @@ height: 650px;
 
 /* Sec5End */
 
-.footer{
-         padding: 0vh 5vw;
-}
-
-.footerBrand p{
-    font-size: 1.563rem;
-    font-weight: 600;
-    margin-left: 20px;
-}
-.logo.bottom{
-    padding: 0px 0px;
-    padding-top: 15px;
-}
-
-.footerContact{
-    width: 150px;
-}
-
-.footerContact li{
-    list-style: none;
-    display: inline-block;
-    font-size: 13px;
-}
-
-.footerCopyright{
-    border-top: 1px solid grey;
-    margin: 0vh 0vw ;
-    flex-direction: column;
-}
-.footerCopyright p{
-    font-size: .8rem;
-    margin: 0;
-    margin-top: 10px;
-}
-
-.footerCopyright-Right{
-align-self: flex-end;
-
-}
-.footerCopyright-Right img{
-    height: 40px;
-}
-
-
-
-
 
 
 }
 
 @media screen and (max-width: 768px) and (min-width: 481px) {
 
-     html,body{
+ html,body{
         font-size: 10px;
-    }
-    .addTop{
-    top: 60px;
 }
-    .logo{
-        width: 150px;
-
-    }
-    .animationGridBlueCircle{
-    position: relative;
-    height: 400px;
-    width: 400px;
-    background-color: #F1F7FF;
-    border-radius: 500px;
-
+.logoBox{
+    width: 180px;
 }
-
-     .animationGridBlueCircle img{
-    transform: translate(-0%,-10%);
-    height: 140%;
-} 
+.navSignup{
+    height: 30px;
+    width: 120px;
+    border-radius: 3px;
+}
+ .writeUps p{
+     font-size: 2.5em;
+ }
+ .writeUps h6{
+     font-size: 12px;
+     width: 250px;
+ }
+ .signup{
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+ }
 .sec2Label li{
         font-size: 15px;
 
@@ -1173,25 +1105,32 @@ align-self: flex-end;
     position: absolute;
 }
 .anim h2{
-    font-size: 25px;
+    font-size: 20px;
     margin: 10px 0px;
 }
 .anim p{
-    font-size: 15px;
+    font-size: 12px;
     margin: 0;
+    width: 100%;
 }
-
 .Sec4Container{
-    padding: 0px;
-    margin: 0px 0px 0px 40px;
-
+    height: 650px;
 }
-.sec4image img{
+
+.desktopDashboard{
+    height: 100%;
+}
+.sec5_2Content{
+    background-position: 50% 110%;
+}
+.sec5_2Content p{
+    width: 100%;
+}
+.sec5_2Content_middle p{
+    width: 100%;
+}
+.sec5_2Content_bottom{
     width: 70%;
-}
-
-.footerContact{
-    width: 150px;
 }
 
 }
@@ -1199,12 +1138,20 @@ align-self: flex-end;
 @media screen and (max-width: 1024px) and (min-width: 769px)  {
 
     html,body{
-        font-size: 12px;
+        font-size: 13px;
     }
-    .animationGridBlueCircle img{
-    transform: translate(-0%,-10%);
-    height: 140%;
-} 
+.navSignup{
+    height:40px ;
+    width: 150px;
+}
+.writeUps h6{
+    font-size: 16px;
+    width:325px ;
+}
+.signup{
+    height: 50px;
+    width:180px ;
+}
 
 .sec2Label li{
         font-size: 15px;
@@ -1226,7 +1173,7 @@ align-self: flex-end;
 }
 
 .displayBoxWriteUp{
-
+    margin-left: 20px;
 }
 
 .anim{
@@ -1241,56 +1188,14 @@ align-self: flex-end;
     margin: 0;
 }
 
-
-.Sec4Container{
-    padding: 0px;
-    margin: 0px 0px 0px 40px;
-
-}
-.sec4image img{
-    width: 70%;
+.sec5_2Content{
+    background-position: 50% 120%;
 }
 
-    .footer{
+.footer{
          padding: 5vh 10vw;
 }
 
-
-.footerBrand p{
-    font-size: 1.563rem;
-    font-weight: 600;
-    margin-left: 20px;
-}
-
-.footerContact li{
-    list-style: none;
-    display: inline-block;
-    font-size: 13px;
-}
-
-.footerCopyright{
-    border-top: 1px solid grey;
-    margin: 0vh 0vw ;
-    flex-direction: column;
-}
-
-.footerCopyright-Right{
-align-self: flex-end;
-
-}
-
-}
-
 @media screen and (max-width: 1440px) and (min-width: 1025px)  {
-
-.Sec4Container{
-    padding: 0px;
-    margin: 0px 0px 0px 150px;
-
-}
-.sec4image img{
-    width: 70%;
-}
-
 
 }

@@ -6,12 +6,12 @@ include 'includes/dbh.inc.php';
 include 'includes/functions.inc.php';
 
 $query = "SELECT * FROM waitlist";
-    if($result = $conn->query($query)){
-        while ($row = $result->fetch_assoc()){
-            $point = $row ["usersPoint"];
-            $name = $row ["usersName"];
-        }
+if ($result = $conn->query($query)) {
+    while ($row = $result->fetch_assoc()) {
+        $point = $row["usersPoint"];
+        $name = $row["usersName"];
     }
+}
 
 ?>
 
@@ -33,7 +33,7 @@ $query = "SELECT * FROM waitlist";
     <div class="navbar ">
         <div class="navbarContent">
             <div class="">
-                <a href="index.php"><img class="logo" src="icons/Logolatest.svg"></a>
+                <a href="index.php"><img class="logo" src="icons/tapWorking.png"></a>
             </div>
         </div>
     </div>
@@ -51,7 +51,7 @@ $query = "SELECT * FROM waitlist";
                     <h2>Available in your Vault</h2>
                 </div>
                 <div class="thankYouContainer_Body_Box_Right">
-                    <h1><?php echo 400-$point; ?></h1>
+                    <h1><?php echo 400 - $point; ?></h1>
                     <p>TapCash required to claim a free card</p>
                 </div>
             </div>
@@ -60,7 +60,7 @@ $query = "SELECT * FROM waitlist";
             <div class="thankYouContainer_ReferLink_box">
                 <div class="thankYouContainer_ReferLink_box_left">
                     <h3>INVITE A FRIEND: </h3>
-                    <input id="myInput" type="text"value="http://localhost/tap-network/waitlistRegister.php?refer=<?php echo  htmlspecialchars($_GET['email'] ?? ''); ?>">
+                    <input id="myInput" type="text" value="http://localhost/tap-network/waitlistRegister.php?refer=<?php echo  htmlspecialchars($_GET['email'] ?? ''); ?>">
                     <button>
                         <img onclick="myFunction()" src="icons/Mini_Icon/thankYou Page/copylink.svg" alt="" srcset="">
                     </button>

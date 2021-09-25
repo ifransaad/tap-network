@@ -22,7 +22,7 @@
 <body>
     <div class="adminDashboard_content">
         <div class="sidebar">
-            <a href="index.php"><img class="logo" src="icons/Logolatest.svg"></a>
+            <a href="index.php"><img class="logo" src="icons/tapWorking.png"></a>
             <div class="sidebar_List">
                 <li>Homepage</li>
                 <li>Customers</li>
@@ -101,19 +101,19 @@
         </div>
 
     </div>
-     <!-- jQuery -->
-  <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
 
-  <!-- MDBootstrap Datatables  -->
-  <script type="text/javascript" src="js/datatables.min.js"></script>
-  <!-- Your custom scripts (optional) -->
-  <script type="text/javascript"></script>
-  <script>
-    $(document).ready(function () {
-      $('#dtBasicExample').DataTable();
-      $('.dataTables_length').addClass('bs-select');
-    });
-  </script>
+    <!-- MDBootstrap Datatables  -->
+    <script type="text/javascript" src="js/datatables.min.js"></script>
+    <!-- Your custom scripts (optional) -->
+    <script type="text/javascript"></script>
+    <script>
+        $(document).ready(function() {
+            $('#dtBasicExample').DataTable();
+            $('.dataTables_length').addClass('bs-select');
+        });
+    </script>
 
 </body>
 

@@ -21,27 +21,28 @@ body{
     .aboutUsSection1{
         background-color: #F1F7FF;
         width: 100%;
-        height: 800px;
+        height: 750px;
         overflow: visible;
     }
     .LearnMoreSec1 {
         max-width: 1200px;
         margin: 0px auto;
+        height: 100%;
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         position: relative;
     }
     .LearnMoreSec1 img{
         position: absolute;
-        top:-30px;
         z-index: 1;
+        bottom: -25%;
+        width: 100%;
     }
 
     .Sec1WriteUp{
-     
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -74,7 +75,7 @@ body{
         position: relative;
     }
     .BringingPeopleSec2 {
-        padding: 0px 0px;
+        padding: 0px 20px;
         max-width: 1200px;
         margin: 0px auto;
         position: relative;
@@ -89,7 +90,7 @@ body{
         flex-direction: column;
         justify-content: center;
         text-align: left;
-        padding-right: 120px;
+        width: 50%;
     }
 
     .BringingPeopleSec2WriteUp h1 {
@@ -121,13 +122,13 @@ body{
 
     }
     .ourVisionSec3 {
+        padding: 0px 20px;
         max-width: 1200px;
         margin: 0px auto;
         position: relative;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 0px 40px;
         height: 960px;
     }
 
@@ -136,7 +137,7 @@ body{
         flex-direction: column;
         justify-content: center;
         text-align: left;
-        padding-left: 100px;
+        width: 50%;
 
     }
 
@@ -314,25 +315,24 @@ body{
             visibility: hidden;
             transform: scale(0);
         }
+
+        .aboutUsSection1{
+            height: 300px;
+        }
         .Sec1WriteUp{
             font-size: 6px;
         }
-
-        .Sec1WriteUp,
-        .BringingPeopleSec2,.ourVisionSec3{
-            justify-content: center;
-            height: auto;
-
+        .LearnMoreSec1 img{
+            bottom: -18%;
         }
-       .BringingPeopleSec2{
-            justify-content: center;
-
-
-       }
-
+        .BringingPeopleSec2, .ourVisionSec3{
+            height: auto;
+            margin-top: 70px;
+        }
        .BringingPeopleSec2WriteUp,.ourVisionSec3WriteUp{
            font-size: 10px;
            width: 90%;
+           text-align: center;
        }
 
 
@@ -448,14 +448,27 @@ body{
         body{
             font-size: 13px;
         }
-        .Sec1WriteUp,
-        .Sec1Images,.BringingPeopleSec2,.ourVisionSec3{
-            transform: translateX(-3vw);
+
+        .aboutUsSection1{
+            height: 500px;
         }
+
+    .Sec1WriteUp h3{
+        font-size: 15px;
+    }
+    .Sec1WriteUp h1{
+        font-size: 45px;
+    }
+
        .BringingPeopleSec2{
             justify-content: center;
+       }
+       .BringingPeopleSec2Img img{
+            width: 400px;
+       }
 
-
+              .ourVisionSec3Img img{
+           width: 400px;
        }
 
        .advisorsSec4WriteUp{
@@ -489,15 +502,9 @@ body{
         body{
             font-size: 13px;
         }
-        .Sec1WriteUp,
-        .Sec1Images,.BringingPeopleSec2,.ourVisionSec3{
-            transform: translateX(-3vw);
+        .aboutUsSection1{
+            height: 650px;
         }
-       .BringingPeopleSec2{
-            justify-content: center;
-
-
-       }
 
        .advisorsSec4WriteUp{
             align-self: center;

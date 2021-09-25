@@ -39,7 +39,7 @@
         <div class="navbar ">
             <div class="navbarContent">
                 <div class="">
-                    <a href="index.php"><img class="logo" src="icons/Logolatest.svg"></a>
+                    <a href="index.php"><img class="logo" src="icons/tapWorking.png"></a>
                 </div>
             </div>
         </div>
