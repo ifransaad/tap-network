@@ -1044,6 +1044,15 @@ height: 650px;
 .section6Container_content_icons p{
     font-size: 12px;
 }
+.footer{
+    padding: 30px 20px;
+}
+.footer_content{
+    flex-direction: column;
+}
+.footer_copyright{
+    text-align: left;
+}
 
 /* Sec5End */
 
@@ -1133,7 +1142,7 @@ height: 650px;
     width: 70%;
 }
 
-}
+
 
 @media screen and (max-width: 1024px) and (min-width: 769px)  {
 
