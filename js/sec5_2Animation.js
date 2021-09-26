@@ -16,7 +16,7 @@ window.addEventListener("scroll", check_values);
     }
 
     function co() {
-        var c = new CountUp("counter", 0, 2000000,0,5);
+        var c = new CountUp("counter", 0, 7200000,0,5);
         c.start()
         repeat = true;
 

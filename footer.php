@@ -54,7 +54,7 @@
             </div>
         </div>
         <div class="footer_copyright">
-            <p>© 2021 AmanaTrade | All rights reserved.</p>
+            <p>© 2021 The Tap Network | All rights reserved.</p>
         </div>
     </div>
 </div>

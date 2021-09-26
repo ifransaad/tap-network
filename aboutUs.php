@@ -21,7 +21,7 @@ include_once 'header.php';
         <div class="BringingPeopleSec2">
             <div class="BringingPeopleSec2WriteUp">
                 <h1>Bringing people back to life</h1>
-                <p>If technology can take away meaningful relationships, it should be also able to bring it back. Meeting people online can never be as good as meeting people in real life. Our mission is to bring people out of their screens and into the real world. </p>
+                <p>If technology can take away meaningful relationships, it should be also able to bring them back. Meeting people in real life is always better than meeting people online. Our mission is to bring people out of their screens and connect them in real life. </p>
             </div>
             <div class="BringingPeopleSec2Img hidden">
                 <img src="aboutUs/Images/sec2right.png" alt="">
@@ -37,7 +37,7 @@ include_once 'header.php';
             </div>
             <div class="ourVisionSec3WriteUp">
                 <h1>Our vision for the future</h1>
-                <p>We want to offer individuals and businesses a simple and engaging way to network. Networking should not be a chore. </p>
+                <p>To empower human connections with the aid technology always meant to give.</p>
             </div>
 
         </div>

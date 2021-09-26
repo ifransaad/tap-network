@@ -132,13 +132,13 @@ Html,body{
 
 .signup{
     height: 50px;
-    width: 200px;
+    width: 250px;
     background-color: rgba(47, 128, 237, 1);
     border-radius: 8px;
     text-align: center;
     border: 1px solid rgba(47, 128, 237, 1);
     color: white;
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: 500;
     cursor: pointer;
     opacity: 1;
@@ -206,7 +206,7 @@ position: absolute;
     
 }
 .writeUps h6{
-    width: 400px;
+    width: 440px;
     margin: 20px  0px;
     display: block;
     color: #9D9FA6;
@@ -249,6 +249,28 @@ position: absolute;
     padding: 50px 40px;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+}
+.indexDecor img{
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    z-index: +2;
+}
+
+#ImgDec1Pyr{
+    z-index: 0;
+    top: 15%;
+    right: 12%;
+}
+#ImgDec2Cone{
+    top: 25%;
+    left: 0;
+    transform: scale(2);
+}
+#ImgDec3Cyl{
+    bottom: 25%;
+    right: 10%;
 }
 
 .section1_2Container_header{
@@ -391,13 +413,13 @@ position: absolute;
 }
 .sec2Label li.current-link{
     color: rgba(31, 93, 176, 1);
-    font-size:22px ;
+    font-size:20px ;
 }
 
 
 .sec2Label li{
     list-style: none;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 400;
     margin: 10px 5px;
     cursor: pointer;
@@ -483,8 +505,8 @@ position: absolute;
     position: absolute;
 }
 .anim h2{
-    font-size: 36px;
-    margin: 0px 0px 40px 0px;
+    font-size: 32px;
+    margin: 0px 0px 30px 0px;
 }
 .anim p{
     font-size: 18px;
@@ -569,7 +591,7 @@ position: absolute;
     align-items: center;
 }
 .sec5_2Content_bottom{
-    width: 45%;
+    width: 48%;
     display: flex;
     align-items: center;
 }
@@ -601,9 +623,10 @@ position: absolute;
     width: 80%;
 }
 .sec5_2Content_bottom p{
-    width: 70%;
+    width: 100%;
     text-align: left;
-    margin-bottom: 0pc;
+    margin-bottom: 0px;
+    color: #2F80ED;
 }
 
 /* Sec5 end */
@@ -694,12 +717,7 @@ position: absolute;
 }
 
 
-.indexDecor img{
-    width: 200px;
-    height: 150px;
-    position: absolute;
-    z-index: +2;
-}
+
 
 /* Footer End */
 
@@ -1062,149 +1080,163 @@ height: 650px;
 
 @media screen and (max-width: 768px) and (min-width: 481px) {
 
- html,body{
-        font-size: 10px;
+    html,body{
+            font-size: 10px;
+    }
+    .logoBox{
+        width: 180px;
+    }
+    .navSignup{
+        height: 30px;
+        width: 120px;
+        border-radius: 3px;
+    }
+    .writeUps p{
+        font-size: 2.5em;
+    }
+    .writeUps h6{
+        font-size: 12px;
+        width: 250px;
+    }
+    .signup{
+        height: 40px;
+        width: 150px;
+        border-radius: 5px;
+    }
+
+    #ImgDec1Pyr{
+    z-index: 0;
+    top: 15%;
+    right: -10%;
 }
-.logoBox{
-    width: 180px;
+#ImgDec2Cone{
+    top: 10%;
+    left: 0;
+    transform: scale(1);
 }
-.navSignup{
-    height: 30px;
-    width: 120px;
-    border-radius: 3px;
-}
- .writeUps p{
-     font-size: 2.5em;
- }
- .writeUps h6{
-     font-size: 12px;
-     width: 250px;
- }
- .signup{
-    height: 40px;
-    width: 150px;
-    border-radius: 5px;
- }
-.sec2Label li{
-        font-size: 15px;
+#ImgDec3Cyl{
+    bottom: 15%;
+    right: 0%;
+        transform: scale(0.75);
 
 }
+    .sec2Label li{
+            font-size: 15px;
 
-.sec2Label li.current-link{
-    font-size:18px ;
-}
+    }
 
-
-.displayBoxImageAgain{
-    height: 330px;
-}
-
-.sec2image img{
-    width: 175px;
-    margin: 0px 60px;
-}
-
-.displayBoxWriteUp{
+    .sec2Label li.current-link{
+        font-size:18px ;
+    }
 
 
+    .displayBoxImageAgain{
+        height: 330px;
+    }
 
-}
+    .sec2image img{
+        width: 175px;
+        margin: 0px 60px;
+    }
 
-.anim{
-    position: absolute;
-}
-.anim h2{
-    font-size: 20px;
-    margin: 10px 0px;
-}
-.anim p{
-    font-size: 12px;
-    margin: 0;
-    width: 100%;
-}
-.Sec4Container{
-    height: 650px;
-}
-
-.desktopDashboard{
-    height: 100%;
-}
-.sec5_2Content{
-    background-position: 50% 110%;
-}
-.sec5_2Content p{
-    width: 100%;
-}
-.sec5_2Content_middle p{
-    width: 100%;
-}
-.sec5_2Content_bottom{
-    width: 70%;
-}
+    .displayBoxWriteUp{
 
 
+
+    }
+
+    .anim{
+        position: absolute;
+    }
+    .anim h2{
+        font-size: 20px;
+        margin: 10px 0px;
+    }
+    .anim p{
+        font-size: 12px;
+        margin: 0;
+        width: 100%;
+    }
+    .Sec4Container{
+        height: 650px;
+    }
+
+    .desktopDashboard{
+        height: 100%;
+    }
+    .sec5_2Content{
+        background-position: 50% 110%;
+    }
+    .sec5_2Content p{
+        width: 100%;
+    }
+    .sec5_2Content_middle p{
+        width: 100%;
+    }
+    .sec5_2Content_bottom{
+        width: 70%;
+    }
+
+}
 
 @media screen and (max-width: 1024px) and (min-width: 769px)  {
 
     html,body{
         font-size: 13px;
     }
-.navSignup{
-    height:40px ;
-    width: 150px;
-}
-.writeUps h6{
-    font-size: 16px;
-    width:325px ;
-}
-.signup{
-    height: 50px;
-    width:180px ;
-}
+    .navSignup{
+        height:40px ;
+        width: 150px;
+    }
+    .writeUps h6{
+        font-size: 16px;
+        width:325px ;
+    }
+    .signup{
+        height: 50px;
+        width:180px ;
+    }
 
-.sec2Label li{
+    .sec2Label li{
+            font-size: 15px;
+
+    }
+
+    .sec2Label li.current-link{
+        font-size:18px ;
+    }
+
+
+    .displayBoxImageAgain{
+        height: 470px;
+    }
+
+    .sec2image img{
+        width: 250px;
+        margin: 0px 60px;
+    }
+
+    .displayBoxWriteUp{
+        margin-left: 20px;
+    }
+
+    .anim{
+        position: absolute;
+    }
+    .anim h2{
+        font-size: 30px;
+        margin: 10px 0px;
+    }
+    .anim p{
         font-size: 15px;
+        margin: 0;
+    }
+
+    .sec5_2Content{
+        background-position: 50% 120%;
+    }
 
 }
-
-.sec2Label li.current-link{
-    font-size:18px ;
-}
-
-
-.displayBoxImageAgain{
-    height: 470px;
-}
-
-.sec2image img{
-    width: 250px;
-    margin: 0px 60px;
-}
-
-.displayBoxWriteUp{
-    margin-left: 20px;
-}
-
-.anim{
-    position: absolute;
-}
-.anim h2{
-    font-size: 30px;
-    margin: 10px 0px;
-}
-.anim p{
-    font-size: 15px;
-    margin: 0;
-}
-
-.sec5_2Content{
-    background-position: 50% 120%;
-}
-
-.footer{
-         padding: 5vh 10vw;
-}
-
 @media screen and (max-width: 1440px) and (min-width: 1025px)  {
 
 }

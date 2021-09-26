@@ -13,9 +13,8 @@ include_once 'header.php';
         <div class="writeUps">
             <p>The Future of Networking</p>
             <br>
-            <h6> Network more efficiently. Join us now and stay up to date on our launch.
-            </h6>
-            <button onclick="document.location='waitlistRegister.php' " class="signup">Get Started Free</button>
+            <h6>Network more efficiently and meaningfully. Join us now and stay up to date on our launch.</h6>
+            <button onclick="document.location='waitlistRegister.php' " class="signup">I want better networking now</button>
 
         </div>
         <div class="animationGrid">
@@ -32,9 +31,9 @@ include_once 'header.php';
 
         <div class="section1_2Container">
             <div class="indexDecor hidden">
-                <img style="transform: translate( 250px ,75px ); z-index: 0" src="icons/index Decor/image 12IndexDecor.svg" alt="">
-                <img style="transform: translate(  -550px ,100px   );" src="icons/index Decor/image 22IndexDecor.svg" alt="">
-                <img style="transform: translate(  300px ,400px   );" src="icons/index Decor/image 30IndexDecor.svg" alt="">
+                <img id="ImgDec1Pyr"  src="icons/index Decor/image 12IndexDecor.svg" alt="">
+                <img id="ImgDec2Cone"  src="icons/index Decor/image 22IndexDecor.svg" alt="">
+                <img id="ImgDec3Cyl"  src="icons/index Decor/image 30IndexDecor.svg" alt="">
 
             </div>
             <div class="section1_2Container_header">
@@ -60,7 +59,7 @@ include_once 'header.php';
                     <img src="icons/sec1_3 Circle.svg" alt="">
                 </div>
                 <div class="section1_3Container_content_writeUp">
-                    <p>TapWorking observes networking trends across the board and identifies your specific needs. The Tap intelligent assistent will curate a personalized networking journey for you while considering your busy schedule.</p>
+                    <p>TapWorking AI recognizes and adresses trends across the industry, creating a unique journey for you in 3 steps. </p>
                 </div>
                 <div class="section1_3Container_content_icons">
                     <div class="section1_3Container_content_icons_box">
@@ -75,7 +74,7 @@ include_once 'header.php';
 
                     <div class="section1_3Container_content_icons_box">
                         <img src="icons/sec1_3Icon 1.svg" alt="">
-                        <p>Fit it into your schedule to make it happen</p>
+                        <p>Fits automatically into your schedule</p>
                     </div>
                 </div>
             </div>
@@ -87,16 +86,16 @@ include_once 'header.php';
     <div class="section2">
         <div class="section2Pre_container">
             <h2>Control your own identity</h2>
-            <p>Networking through our Tap cards allows you to share only the information you want to. Express your identity by fully customizing your profile through our widgets with infinate possiblities. We don’t care if you work in finance or you are a musicial, we have something for you.</p>
+            <p>Networking through our Tap cards allows you to share only and all the information you want. Express your identity by fully customizing your profile through our widgets with infinite possiblities. We don’t care what line of work you do, show everyone who you are.</p>
         </div>
         <div class="section2container hidden">
             <div class="sec2Label">
                 <li class="up-button hidden"><i class="fas fa-arrow-up"></i></li>
                 <div id="nonResponsive" class="sec2LabelLink">
-                    <li class="current-link">Contact</li>
-                    <li>Show Off</li>
+                    <li class="current-link">Create a unique profile</li>
+                    <li>Streamline your connections</li>
                     <li>Custom Widgets</li>
-                    <li>Personalise Colors</li>
+                    <li>Down to the detail</li>
 
                 </div>
                 <li class="down-button hidden"><i class="fas fa-arrow-down"></i></li>
@@ -120,26 +119,23 @@ include_once 'header.php';
                 <div class="displayBoxWriteUp">
                     <div class="displayBoxWriteUpAgain">
                         <div class="contact anim current-image">
-                            <h2>Add Contact Information</h2>
-                            <p>Add your basic contact information such as your name, phone number, email, and profile photo, along
-                                with your business
-                                logo and a photo or video cover photo.</p>
+                            <h2>Create a unique profile</h2>
+                            <p>Tell people who you are, exactly how you are. Customize your name, phone number, email, and profile photo, along with your business logo and a photo or video cover photo. </p>
                         </div>
                         <div class="works anim vanish-image">
 
-                            <h2>Show off your works</h2>
-                            <p>Add direct links to any URLs, such as your website, a presentation, and more.</p>
+                            <h2>Streamline your connections</h2>
+                            <p>Transition between your chosen links URL seamsly. Add direct links to any URLs, such as your website, a presentation, and more.</p>
                         </div>
                         <div class="widget anim vanish-image">
 
                             <h2>Custom Widgets</h2>
-                            <p>Add and customize your widgets to show any information you want, such as payment profiles or resume
-                                uploads.</p>
+                            <p>With custom widgets, show and hide any information you want. From payment profiles to resume uploads. </p>
                         </div>
                         <div class="colors anim vanish-image">
 
-                            <h2>Personalize your brand colors</h2>
-                            <p>Add colors to your profile page to match those of your business or personal brand.</p>
+                            <h2>Down to the detail</h2>
+                            <p>Add colors that match your business or personal brand. Control everything your connections sees.</p>
                         </div>
 
                     </div>
@@ -175,21 +171,20 @@ include_once 'header.php';
             </div>
             <div class="slider-writeUp">
                 <div class="slider-writeUp-writeUp active">
-                    <h2>Add Contact Information</h2>
-                    <h4>Add your basic contact information such as your name, phone number, email, and profile photo, along with your business logo and a photo or video cover photo.</h4>
+                    <h2>Create a unique profile</h2>
+                    <p>Tell people who you are, exactly how you are. Customize your name, phone number, email, and profile photo, along with your business logo and a photo or video cover photo. </p>
                 </div>
                 <div class="slider-writeUp-writeUp">
-                    <h2>Show off your works</h2>
-                    <h4>Add direct links to any URLs, such as your website, a presentation, and more.</h4>
+                    <h2>Streamline your connections</h2>
+                    <p>Transition between your chosen links URL seamsly. Add direct links to any URLs, such as your website, a presentation, and more.</p>
                 </div>
                 <div class="slider-writeUp-writeUp">
                     <h2>Custom Widgets</h2>
-                    <h4>Add and customize your widgets to show any information you want, such as payment profiles or resume
-                        uploads.</h4>
+                    <p>With custom widgets, show and hide any information you want. From payment profiles to resume uploads. </p>
                 </div>
                 <div class="slider-writeUp-writeUp">
-                    <h2>Personalize your brand colors</h2>
-                    <h4>Add colors to your profile page to match those of your business or personal brand.</h4>
+                    <h2>Down to the detail</h2>
+                    <p>Add colors that match your business or personal brand. Control everything your connections sees.</p>
                 </div>
 
             </div>
@@ -212,8 +207,8 @@ include_once 'header.php';
     <div class="section4">
         <div class="Sec4Container">
             <div class="sec4Writeup">
-                <h3>Never loose track of your network</h3>
-                <p> Have you ever connected with someone and misplaced their business card or forgot to follow up? We get it. Leave it to us, never loose someones contact or forget to follow up because we will remind you. </p>
+                <h3>Never loose track of your connections</h3>
+                <p>Do you ever meet with someone and misplaced their business card or forgot to follow up. We get it. Leave it to us, never loose someones contact or forget to follow up.</p>
             </div>
             <div class="sec4image">
                 <img class="desktopDashboard hidden" src="icons/section4 Dashboard.png">
@@ -233,7 +228,7 @@ include_once 'header.php';
             <p>Our Tap cards are made of 100% recycled materials so we can network better and help the environment at the same time.</p>
             <div class="sec5_2Content_middle">
                 <h2 id="counter" class="counter-count">0</h2>
-                <p>trees are cut down each year to produce paper business cards.</p>
+                <p>tress are cut down each year to produce traditional business cards.</p>
             </div>
 
             <div class="sec5_2Content_bottom">
@@ -272,12 +267,12 @@ include_once 'header.php';
 
                     <div class="section1_3Container_content_icons_box">
                         <img src="icons/sec6Icon3.svg" alt="">
-                        <p>We will email you updates on our launch</p>
+                        <p>Stay Tuned</p>
                     </div>
                 </div>
 
             </div>
-            <button onclick="document.location='waitlistRegister.php' " class="signup">Get Started Free</button>
+            <button onclick="document.location='waitlistRegister.php' " class="signup">I want better networking now</button>
 
 
         </div>
