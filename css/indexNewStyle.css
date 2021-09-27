@@ -265,8 +265,8 @@ position: absolute;
 }
 #ImgDec2Cone{
     top: 25%;
-    left: 0;
-    transform: scale(2);
+    left: 5%;
+    transform: scale(1.2);
 }
 #ImgDec3Cyl{
     bottom: 25%;
@@ -808,8 +808,8 @@ body{
   margin: 0;
 }
 .signup{
-    height: 25px;
-    width: 127px;
+    height: 35px;
+    width: 160px;
     border-radius: 4px;
     font-size: 10px;
  

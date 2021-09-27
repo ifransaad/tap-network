@@ -31,9 +31,9 @@ include_once 'header.php';
 
         <div class="section1_2Container">
             <div class="indexDecor hidden">
-                <img id="ImgDec1Pyr"  src="icons/index Decor/image 12IndexDecor.svg" alt="">
-                <img id="ImgDec2Cone"  src="icons/index Decor/image 22IndexDecor.svg" alt="">
-                <img id="ImgDec3Cyl"  src="icons/index Decor/image 30IndexDecor.svg" alt="">
+                <img id="ImgDec1Pyr" src="icons/index Decor/image 12IndexDecor.svg" alt="">
+                <img id="ImgDec2Cone" src="icons/index Decor/image 22IndexDecor.svg" alt="">
+                <img id="ImgDec3Cyl" src="icons/index Decor/image 30IndexDecor.svg" alt="">
 
             </div>
             <div class="section1_2Container_header">
@@ -52,7 +52,7 @@ include_once 'header.php';
     <div class="section1_3">
         <div class="section1_3Container">
             <div class="section1_3Container_header">
-                <h3>An intelligent networking assistant</h3>
+                <h3>Tap Intelligent assistant</h3>
             </div>
             <div class="section1_3Container_content">
                 <div class="section1_3Container_content_image">
@@ -120,7 +120,7 @@ include_once 'header.php';
                     <div class="displayBoxWriteUpAgain">
                         <div class="contact anim current-image">
                             <h2>Create a unique profile</h2>
-                            <p>Tell people who you are, exactly how you are. Customize your name, phone number, email, and profile photo, along with your business logo and a photo or video cover photo. </p>
+                            <p>Tell people exactly how you are. Customize your name, phone number, email, and profile photo, along with your business logo and a photo or video cover photo. </p>
                         </div>
                         <div class="works anim vanish-image">
 
@@ -172,7 +172,7 @@ include_once 'header.php';
             <div class="slider-writeUp">
                 <div class="slider-writeUp-writeUp active">
                     <h2>Create a unique profile</h2>
-                    <p>Tell people who you are, exactly how you are. Customize your name, phone number, email, and profile photo, along with your business logo and a photo or video cover photo. </p>
+                    <p>Tell people exactly how you are. Customize your name, phone number, email, and profile photo, along with your business logo and a photo or video cover photo. </p>
                 </div>
                 <div class="slider-writeUp-writeUp">
                     <h2>Streamline your connections</h2>
