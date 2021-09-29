@@ -56,7 +56,9 @@ include_once 'header.php';
             </div>
             <div class="section1_3Container_content">
                 <div class="section1_3Container_content_image">
-                    <img src="icons/sec1_3 Circle.svg" alt="">
+                    <video autoplay loop width="250px">
+                        <source src="icons/Tapnetwork phone animation/tapWork animation.mp4" type="video/mp4"> 
+                    </video>
                 </div>
                 <div class="section1_3Container_content_writeUp">
                     <p>TapWorking AI recognizes and adresses trends across the industry, creating a unique journey for you in 3 steps. </p>
