@@ -33,7 +33,9 @@
             <div class="navbarContent">
                 <div class="navbarContent_left">
                     <div class="logoBox">
-                        <a href="index.php"><img class="logo" src="icons/tapWorking.png"></a>
+                        <a href="index.php">
+                        <img class="logo" src="icons/tapWorking.png">
+                    </a>
                     </div>
 
                     <div class="nav hidden ">
