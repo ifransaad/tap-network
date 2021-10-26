@@ -5,9 +5,7 @@ include_once 'header.php';
 
 <!-- Section 1 -->
 <div id="wholeContainer" class="WholeContainer">
-    <?php
-    include_once 'indexDecor.php';
-    ?>
+
     <div class="Sec1Container">
 
         <div class="writeUps">
@@ -292,7 +290,6 @@ include_once 'header.php';
 
 
 <script src="js/sec2Animation.js"></script>
-<script src="js/navBarRes.js"></script>
 
 <script src="js/sec2AnimationResponsiveSlider.js"></script>
 

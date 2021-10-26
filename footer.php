@@ -33,7 +33,7 @@
     <div class="footer">
         <div class="footer_content">
             <div class="footer_content_about footer_content_list">
-                <h3>About TapWorking</h3>
+                <h3>About cnect<span style="color:#1076FD;">ur</span></h3>
                 <a href="">About Us</a>
                 <a href="">Learn</a>
             </div>
@@ -54,7 +54,7 @@
             </div>
         </div>
         <div class="footer_copyright">
-            <p>© 2021 The Tap Network | All rights reserved.</p>
+            <p>© 2021 cnect<span style="color:#1076FD;">ur</span> | All rights reserved.</p>
         </div>
     </div>
 </div>

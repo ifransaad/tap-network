@@ -81,7 +81,7 @@ include_once 'header.php';
         <div class="managementTeamSec5">
             <div class="managementTeamSec5WriteUp">
                 <h1>Our Team</h1>
-                <p>Our team has a comprehensive skill set that enables Tap Network to grow and flourish!</p>
+                <p>Our team has a comprehensive skill set that enables cnect<span style="color:#1076FD;">ur</span> to grow and flourish!</p>
             </div>
             <div class="managementTeamSec5Team">
 

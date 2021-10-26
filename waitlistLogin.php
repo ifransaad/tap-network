@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TapNetwork- Future of Networking</title>
+    <title>cnectur- Future of Networking</title>
     <link rel="shortcut icon" type="image/jpg" href="icons/favicon.svg" />
     <link rel="stylesheet" href="css/waitlistRegister.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
@@ -45,7 +45,7 @@
                 <div class="leftContent">
                     <div class="navbar">
                         <div class="leftNavbar">
-                            <a href="index.php"><img class="logo" style="width: 200px;" src="icons/tapWorking.png"></a>
+                            <a href="index.php"><img class="logo" src="icons/tapWorking.png"></a>
                         </div>
                     </div>
                     <img class="leftImg" src="signUp/images/Individual Step1.png" alt="">
@@ -59,11 +59,11 @@
                     <div class="rightAllContent">
                         <div class="navbar mobileOnly">
                             <div class="leftNavbar">
-                                <a href="index.php"><img class="logo" style="width: 200px;" src="icons/tapWorking.png"></a>
+                                <a href="index.php"><img class="logo" src="icons/tapWorking.png"></a>
                             </div>
                         </div>
                         <div class="rightAllContentHeading">
-                            <h1>Welcome to TapNetwork</h1>
+                            <h1>Welcome to cnect<span style="color:#1076FD;">ur</span> </h1>
                             <p style="font-weight: 500;"></p>
                         </div>
 

@@ -82,7 +82,7 @@ body{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        height: 960px;
+        height: 700px;
     }
 
     .BringingPeopleSec2WriteUp {
@@ -129,7 +129,7 @@ body{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        height: 960px;
+        height: auto;
     }
 
     .ourVisionSec3WriteUp {

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TapNetwork - Future of Networking</title>
+    <title>cnectur - Future of Networking</title>
 
     <link rel="shortcut icon" type="image/jpg" href="icons/favicon.svg" />
     <link rel="stylesheet" href="css/indexNewStyle.css">
@@ -34,8 +34,8 @@
                 <div class="navbarContent_left">
                     <div class="logoBox">
                         <a href="index.php">
-                        <img class="logo" src="icons/tapWorking.png">
-                    </a>
+                            <img class="logo" src="icons/tapWorking.png">
+                        </a>
                     </div>
 
                     <div class="nav hidden ">
@@ -68,7 +68,7 @@
             <!-- <li><a class="list" href="#">Products</a></li> -->
             <li><a class="list" href="aboutUs.php">About Us</a></li>
             <li><a class="list" href="https://learn.tapnetwork.app/">Learn</a></li>
-            <button onclick="document.location='waitlistLogin.php'" class="login" >Login</button>
+            <button onclick="document.location='waitlistLogin.php'" class="login">Login</button>
             <button onclick="document.location='waitlistRegister.php' " class="navSignup"> Claim a free card!</button>
 
 
@@ -99,6 +99,8 @@
 
         // }
     </script>
+    <script src="js/navBarRes.js"></script>
+
 
 
 

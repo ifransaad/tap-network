@@ -45,7 +45,7 @@ $refer = htmlspecialchars($_GET['refer'] ?? '');
             <div class="leftContent">
                 <div class="navbar">
                     <div class="leftNavbar">
-                        <a href="index.php"><img class="logo" style="width: 200px;" src="icons/tapWorking.png"></a>
+                        <a href="index.php"><img class="logo" src="icons/tapWorking.png"></a>
                     </div>
                 </div>
                 <img class="leftImg" src="signUp/images/Individual Step1.png" alt="">
@@ -53,13 +53,13 @@ $refer = htmlspecialchars($_GET['refer'] ?? '');
             <div class="rightContent">
                 <div class="navbar right notMobileOnly">
                     <div class="leftNavbar">
-                        <a href="index.php"><img class="logo" style="width: 200px;" src="icons/tapWorking.png"></a>
+                        <a href="index.php"><img class="logo" src="icons/tapWorking.png"></a>
                     </div>
                 </div>
                 <div class="rightAllContent">
                     <div class="navbar mobileOnly">
                         <div class="leftNavbar">
-                            <a href="index.php"><img class="logo" style="width: 200px;" src="icons/tapWorking.png"></a>
+                            <a href="index.php"><img class="logo"  src="icons/tapWorking.png"></a>
                         </div>
                     </div>
                     <div class="rightAllContentHeading">
