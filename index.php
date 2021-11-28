@@ -16,9 +16,8 @@ include_once 'header.php';
 
         </div>
         <div class="animationGrid">
-            <div class="gradEclipse"></div>
-            <div class="gradPlanet"></div>
             <img src="icons/animationGridPhotoNoGrad.png" alt="">
+            <img style="transform: translate(-200px,50px);" src="icons/animationGridPhotoPhoneBodyWhite.svg" alt="">
         </div>
 
 
