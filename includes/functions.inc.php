@@ -149,8 +149,13 @@ function emailExists($conn, $email){
     mysqli_stmt_close($stmt);
 }
 
-function createUserWaitlist($conn, $name, $email, $pwd, $refer){
-    $sql = "INSERT INTO waitlist (usersName, usersEmail, usersPwd, usersRefer) VALUES (?,?,?,?);";
+function createUserWaitlist($conn, $name, $email, $pwd){
+    // if($_POST['refer']! = '') {
+    //     updateReferral();
+    // }
+
+    
+    $sql = "INSERT INTO waitlist (usersName, usersEmail, usersPwd, refer_code, 0) VALUES (?,?,?,?,?);";
     
     mysqli_query($conn, $sql);
     $stmt = mysqli_stmt_init($conn);
@@ -159,29 +164,11 @@ function createUserWaitlist($conn, $name, $email, $pwd, $refer){
         exit();
     }
     $hashedPwd = password_hash($pwd, PASSWORD_DEFAULT);
-    mysqli_stmt_bind_param($stmt, "ssss", $name, $email, $hashedPwd, $refer);
+    mysqli_stmt_bind_param($stmt, "sss", $name, $email, $hashedPwd);
     mysqli_stmt_execute($stmt);
     mysqli_stmt_close($stmt);
-    $query = "UPDATE waitlist SET usersPoint = usersPoint+100 WHERE usersRefer = $email";
-    mysqli_query($conn, $query);
-    $querystmt = mysqli_stmt_init($conn);
-    mysqli_stmt_bind_param($querystmt, "ssss", $name, $email, $hashedPwd, $refer);
-    mysqli_stmt_execute($querystmt);
-    mysqli_stmt_close($querystmt);
     header("location: ../thankYou.php?email=".htmlspecialchars($_POST['email'] ?? '')."&name=".htmlspecialchars($_POST['name'] ?? '')."");
     exit();
-}
-
-function getNextIncrement($table) {
-    global $conn, $dbName;
-    $next_increment = 1;
-    $table = mysqli_escape_string($conn, $table);
-    $sql = "SELECT AUTO_INCREMENT FROM information_schema.TABLES WHERE TABLE_SCHEMA = '$dbName' AND TABLE_NAME = '$table'";
-    $results = $conn->query($sql);
-    while($row = $results->fetch_assoc()) {
-        $next_increment = $row['AUTO_INCREMENT'];
-    }
-    return $next_increment-1;
 }
 
 function uidExistsWaitlist($conn, $email){

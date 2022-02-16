@@ -5,12 +5,6 @@ include 'includes/dbh.inc.php';
 
 include 'includes/functions.inc.php';
 
-$query = "SELECT * FROM waitlist";
-if ($result = $conn->query($query)) {
-    while ($row = $result->fetch_assoc()) {
-        $point = $row["usersPoint"];
-    }
-}
 
 ?>
 
@@ -41,19 +35,19 @@ if ($result = $conn->query($query)) {
         <div class="thankYouContainer_Body">
             <div class="thankYouContainer_Body_WriteUp">
                 <h2>Welcome, <?php echo htmlspecialchars($_GET['name'] ?? ''); ?> </h2>
-                <p>Share your link with a friend. When they signup, you both receive 100 TapCash. You can claim a free card after having a balance of 400 TapCash.</p>
+                <p>Share your link with a friend. When they signup, you receive 100 TapCash. You can claim a free card after having a balance of 400 TapCash.</p>
             </div>
             <div class="thankYouContainer_Body_Box">
                 <div class="thankYouContainer_Body_Box_Left">
                     <div class="thankYouContainer_Body_Box_Left_Up">
-                        <h1 style="color: #2F80ED;"><?php echo $point; ?></h1>
+                        <h1 style="color: #2F80ED;"><?php echo ; ?></h1>
                         <h3>TapCash</h3>
                     </div>
 
                     <h2>Available in your Vault</h2>
                 </div>
                 <div class="thankYouContainer_Body_Box_Right">
-                    <h1><?php echo 400 - $point; ?></h1>
+                    <h1><?php echo 400 ; ?></h1>
                     <p>TapCash required to claim a free card</p>
                 </div>
             </div>

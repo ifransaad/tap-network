@@ -27,7 +27,7 @@ if(isset($_POST["submit"])){
         exit();
     }
 
-    createUserWaitlist($conn, $name, $email, $pwd, $refer);
+    createUserWaitlist($conn, $name, $email, $pwd);
    
 
 } else {

@@ -131,7 +131,7 @@ $refer = htmlspecialchars($_GET['refer'] ?? '');
 
                             <label for="refer">
                                 <span>Referer</span>
-                                <input id="refer" type="text" placeholder="Referer Name" name="refer" value="<?php echo $refer; ?>">
+                                <input id="refer" type="text" placeholder="Referral Code" name="refer" value="<?php echo $refer; ?>">
                             </label>
 
                             <br>
